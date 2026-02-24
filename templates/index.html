@@ -1,157 +1,417 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Document Assistant</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Assistant</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
 
-<style>
-body{
-    font-family: Arial, sans-serif;
-    background:#f4f6f9;
-    margin:0;
-    display:flex;
-    flex-direction:column;
-    height:100vh;
-}
+        body {
+            display: flex;
+            height: 100vh;
+            background: #f5f5f5;
+        }
 
-header{
-    background:#4CAF50;
-    color:white;
-    padding:15px;
-    text-align:center;
-    font-size:22px;
-    font-weight:bold;
-}
+        .sidebar {
+            width: 260px;
+            background: white;
+            padding: 20px 12px;
+            border-right: 1px solid #e5e5e5;
+        }
 
-#chatbox{
-    flex:1;
-    overflow-y:auto;
-    padding:20px;
-    background:#e9ecef;
-}
+        .new-chat {
+            background: #f0f0f0;
+            padding: 12px;
+            border-radius: 8px;
+            text-align: center;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
 
-.message{
-    padding:12px;
-    border-radius:10px;
-    margin:12px 0;
-    max-width:75%;
-}
+        .new-chat:hover {
+            background: #e5e5e5;
+        }
 
-.user{
-    background:#4CAF50;
-    color:white;
-    margin-left:auto;
-}
+        .main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            background: white;
+        }
 
-.bot{
-    background:white;
-    box-shadow:0 2px 6px rgba(0,0,0,0.1);
-    margin-right:auto;
-}
+        .chat-area {
+            flex: 1;
+            overflow-y: auto;
+            padding: 30px 20px;
+        }
 
-.bot img{
-    max-width:500px;
-    margin-top:12px;
-    border:1px solid #ddd;
-    border-radius:6px;
-    display:block;
-}
+        .message {
+            max-width: 900px;
+            margin: 0 auto 24px auto;
+        }
 
-form{
-    display:flex;
-    padding:10px;
-    background:white;
-    border-top:1px solid #ddd;
-}
+        .user-message {
+            font-size: 16px;
+            margin-bottom: 8px;
+            color: #333;
+        }
 
-input{
-    flex:1;
-    padding:10px;
-    border:1px solid #ccc;
-    border-radius:6px;
-}
+        .bot-message {
+            background: #f9f9f9;
+            border-radius: 12px;
+            padding: 20px;
+            border: 1px solid #e5e5e5;
+            line-height: 1.6;
+            color: #333;
+        }
 
-button{
-    padding:10px 20px;
-    background:#4CAF50;
-    color:white;
-    border:none;
-    margin-left:10px;
-    border-radius:6px;
-    cursor:pointer;
-}
+        .bot-message p {
+            margin-bottom: 16px;
+        }
 
-.loading{
-    font-style:italic;
-    color:#777;
-}
-</style>
+        .bot-message ul, .bot-message ol {
+            margin: 12px 0 12px 24px;
+        }
+
+        .bot-message li {
+            margin: 6px 0;
+        }
+
+        .show-more {
+            color: #1a73e8;
+            cursor: pointer;
+            font-weight: 500;
+            margin: 8px 0;
+            display: inline-block;
+        }
+
+        .show-more:hover {
+            text-decoration: underline;
+        }
+
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin-top: 20px;
+        }
+
+        .image-card {
+            background: white;
+            border-radius: 8px;
+            padding: 10px;
+            border: 1px solid #e5e5e5;
+            cursor: pointer;
+        }
+
+        .image-card:hover {
+            border-color: #1a73e8;
+        }
+
+        .image-card img {
+            width: 100%;
+            height: 140px;
+            object-fit: contain;
+            background: #fafafa;
+            border-radius: 4px;
+        }
+
+        .input-area {
+            padding: 20px;
+            border-top: 1px solid #e5e5e5;
+        }
+
+        .input-container {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            gap: 10px;
+        }
+
+        input {
+            flex: 1;
+            padding: 14px 16px;
+            border: 1px solid #e5e5e5;
+            border-radius: 8px;
+            font-size: 15px;
+            outline: none;
+        }
+
+        input:focus {
+            border-color: #1a73e8;
+        }
+
+        button {
+            padding: 14px 24px;
+            border: none;
+            border-radius: 8px;
+            background: #1a73e8;
+            color: white;
+            font-weight: 500;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #1557b0;
+        }
+
+        .tips {
+            max-width: 900px;
+            margin: 10px auto 0;
+            color: #666;
+            font-size: 13px;
+        }
+
+        .tips span {
+            margin-right: 20px;
+            cursor: pointer;
+            color: #1a73e8;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.9);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        .modal img {
+            max-width: 90%;
+            max-height: 90%;
+            border-radius: 8px;
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 30px;
+            right: 40px;
+            color: white;
+            font-size: 40px;
+            cursor: pointer;
+        }
+
+        .welcome-message {
+            text-align: center;
+            padding: 60px 20px;
+            color: #666;
+        }
+
+        .welcome-message h1 {
+            font-size: 32px;
+            color: #333;
+            margin-bottom: 16px;
+        }
+    </style>
 </head>
-
 <body>
 
-<header>Document Assistant</header>
+<div class="modal" id="imageModal" onclick="this.classList.remove('active')">
+    <span class="modal-close">&times;</span>
+    <img id="modalImage" src="" alt="Expanded view">
+</div>
 
-<div id="chatbox"></div>
+<div class="sidebar">
+    <div class="new-chat" onclick="newChat()">+ New Chat</div>
+    <div class="history" id="history"></div>
+</div>
 
-<form id="form">
-    <input id="query" placeholder="Ask question..." required>
-    <button type="submit">Send</button>
-</form>
+<div class="main">
+    <div class="chat-area" id="chat">
+        <div class="welcome-message">
+            <h1>Document Assistant</h1>
+            <p>Ask me anything about the Agent Desktop User Guide</p>
+        </div>
+    </div>
+
+    <div class="input-area">
+        <div class="input-container">
+            <input type="text" id="query" placeholder="Ask a question..." autocomplete="off">
+            <button id="sendBtn" onclick="sendMessage()">Send</button>
+        </div>
+        <div class="tips">
+            <span onclick="setQuery('What is T-widgets?')">What is T-widgets?</span>
+            <span onclick="setQuery('Explain how to transfer a call')">Transfer call</span>
+            <span onclick="setQuery('Explain in detail about supervisor features')">Supervisor</span>
+        </div>
+    </div>
+</div>
 
 <script>
-const form = document.getElementById("form");
-const chat = document.getElementById("chatbox");
+const chat = document.getElementById("chat");
+const queryInput = document.getElementById("query");
+const sendBtn = document.getElementById("sendBtn");
+const modal = document.getElementById("imageModal");
+const modalImg = document.getElementById("modalImage");
+let fullContent = {};  // Store full content for show more
 
-form.addEventListener("submit", async (e)=>{
-    e.preventDefault();
+// Enter key
+queryInput.addEventListener("keypress", function(e) {
+    if(e.key === "Enter") sendMessage();
+});
 
-    const input = document.getElementById("query");
-    const q = input.value.trim();
+// Image click
+document.addEventListener("click", function(e) {
+    if(e.target.tagName === "IMG" && e.target.closest(".image-card")) {
+        modalImg.src = e.target.src;
+        modal.classList.add("active");
+    }
+});
+
+// Show more/less function
+window.toggleShowMore = function(id) {
+    const preview = document.getElementById(`preview-${id}`);
+    const full = document.getElementById(`full-${id}`);
+    const btn = document.getElementById(`btn-${id}`);
+    
+    if (full.style.display === 'none') {
+        full.style.display = 'inline';
+        preview.style.display = 'none';
+        btn.textContent = 'Show less';
+    } else {
+        full.style.display = 'none';
+        preview.style.display = 'inline';
+        btn.textContent = 'Show more';
+    }
+};
+
+function setQuery(text) {
+    queryInput.value = text;
+    queryInput.focus();
+}
+
+function scrollToBottom() {
+    chat.scrollTop = chat.scrollHeight;
+}
+
+function formatText(text) {
+    // Convert markdown-like syntax to HTML
+    text = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+    text = text.replace(/\*(.*?)\*/g, '<em>$1</em>');
+    text = text.replace(/`(.*?)`/g, '<code>$1</code>');
+    text = text.replace(/\n\n/g, '</p><p>');
+    text = text.replace(/\n/g, '<br>');
+    return '<p>' + text + '</p>';
+}
+
+async function sendMessage() {
+    let q = queryInput.value.trim();
     if(!q) return;
 
-    chat.innerHTML += `<div class="message user">${q}</div>`;
-    chat.scrollTop = chat.scrollHeight;
+    queryInput.disabled = true;
+    sendBtn.disabled = true;
 
-    input.value = "";
+    // Remove welcome message
+    if (chat.children.length === 1 && chat.children[0].classList.contains('welcome-message')) {
+        chat.innerHTML = '';
+    }
 
-    const loadingId = "loading_" + Date.now();
-    chat.innerHTML += `<div id="${loadingId}" class="message bot loading">Generating answer...</div>`;
+    // Add user message
+    const userMsg = document.createElement("div");
+    userMsg.className = "message";
+    userMsg.innerHTML = `<div class="user-message"><strong>You:</strong> ${q}</div>`;
+    chat.appendChild(userMsg);
+    
+    queryInput.value = "";
+    scrollToBottom();
 
-    try{
+    // Add loading
+    const loadingMsg = document.createElement("div");
+    loadingMsg.className = "message";
+    loadingMsg.innerHTML = `<div class="bot-message"><em>Searching...</em></div>`;
+    chat.appendChild(loadingMsg);
+    scrollToBottom();
 
-        const res = await fetch("/ask",{
-            method:"POST",
-            headers:{"Content-Type":"application/json"},
-            body:JSON.stringify({question:q})
+    try {
+        const res = await fetch("/ask", {
+            method: "POST",
+            headers: {"Content-Type": "application/json"},
+            body: JSON.stringify({query: q})
         });
 
         const data = await res.json();
-
-        document.getElementById(loadingId).remove();
-
-        let html = `<div class="message bot"><p>${data.answer}</p>`;
-
-        if(data.images && Array.isArray(data.images)){
-            data.images.forEach(img=>{
-                html += `<img src="${img}">`;
-            });
+        loadingMsg.remove();
+        
+        // Handle show more/less if needed
+        let answerHtml = '';
+        const id = Date.now();
+        
+        if (data.answer.includes('...') && data.answer.length > 300) {
+            const preview = data.answer.split('...')[0];
+            answerHtml = `
+                <span id="preview-${id}">${formatText(preview)}...</span>
+                <span id="full-${id}" style="display:none">${formatText(data.answer)}</span>
+                <div class="show-more" id="btn-${id}" onclick="toggleShowMore(${id})">Show more</div>
+            `;
+        } else {
+            answerHtml = formatText(data.answer);
         }
+        
+        // Add images
+        let imagesHtml = '';
+        if (data.images && data.images.length > 0) {
+            imagesHtml = '<div class="image-gallery">';
+            data.images.forEach(img => {
+                imagesHtml += `
+                    <div class="image-card">
+                        <img src="${img}?t=${Date.now()}" loading="lazy">
+                    </div>
+                `;
+            });
+            imagesHtml += '</div>';
+        }
+        
+        // Add bot message
+        const botMsg = document.createElement("div");
+        botMsg.className = "message";
+        botMsg.innerHTML = `
+            <div class="bot-message">
+                ${answerHtml}
+                ${imagesHtml}
+            </div>
+        `;
+        chat.appendChild(botMsg);
+        
+        scrollToBottom();
 
-        html += `</div>`;
-
-        chat.innerHTML += html;
-        chat.scrollTop = chat.scrollHeight;
-
+    } catch(err) {
+        loadingMsg.remove();
+        const errorMsg = document.createElement("div");
+        errorMsg.className = "message";
+        errorMsg.innerHTML = `<div class="bot-message">Error: Could not connect to server.</div>`;
+        chat.appendChild(errorMsg);
+    } finally {
+        queryInput.disabled = false;
+        sendBtn.disabled = false;
+        queryInput.focus();
     }
-    catch(err){
-        console.error(err);
-        document.getElementById(loadingId).remove();
-        chat.innerHTML += `<div class="message bot">Server error</div>`;
-    }
+}
 
-});
+function newChat() {
+    chat.innerHTML = `
+        <div class="welcome-message">
+            <h1>Document Assistant</h1>
+            <p>Ask me anything about the Agent Desktop User Guide</p>
+        </div>
+    `;
+}
+
+queryInput.focus();
 </script>
-
 </body>
 </html>
