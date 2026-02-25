@@ -1,0 +1,765 @@
+[
+  {
+    "id": 1,
+    "query": "explain about the type of T-widgets",
+    "answer": "In the context of T-Widgets, there are four main types of widgets: Toolbar, Navbar, Content, and AOT (Always on top). These widgets are used to create dynamic content within the Application Design (AD) environment.\n\n1. Toolbar Widgets: These widgets are represented by a red box in the high-level view and are typically located at the top of the webpage. Their purpose is to provide quick access to frequently used functions or features.\n\n2. Navbar Widgets: Yellow indicates Navbar widgets, which are also positioned at the top of the webpage but usually contain links to different sections or pages within the application.\n\n3. Content Widgets: The blue section represents Content widgets, which hold the main content of the page. These widgets can be further divided into various sub-types based on their specific functions or purposes.\n\n4. AOT (Always on top) Widgets: Purple box indicates the AOT widgets, which are designed to stay on top of all other widgets regardless of user interaction or scrolling. This ensures that they remain visible at all times.\n\nIn addition to these main types, there are two categories of widgets based on their behavior: Static and Dynamic Widgets. The difference between them lies in their size and position. Static widgets are displayed on the left side with a fixed size (2x3), while dynamic widgets occupy the 4x3 size of the screen, allowing them to adjust their position and size dynamically based on user interaction or other factors.\n\nThe specific implementation details for creating, configuring, and maintaining these widgets will be covered in subsequent coding sections.",
+    "section": "Types of widgets",
+    "images": [
+      {
+        "url": "/static/images/img_27.png",
+        "caption": "Types of widgets"
+      },
+      {
+        "url": "/static/images/img_28.png",
+        "caption": "Types of widgets"
+      },
+      {
+        "url": "/static/images/img_29.png",
+        "caption": "Types of widgets"
+      },
+      {
+        "url": "/static/images/img_24.png",
+        "caption": "T-Widgets"
+      },
+      {
+        "url": "/static/images/img_25.png",
+        "caption": "T-Widgets"
+      },
+      {
+        "url": "/static/images/img_26.png",
+        "caption": "T-Widgets"
+      },
+      {
+        "url": "/static/images/img_60.png",
+        "caption": "Static / Dynamic Widgets:"
+      },
+      {
+        "url": "/static/images/img_61.png",
+        "caption": "Static / Dynamic Widgets:"
+      }
+    ],
+    "time": "2026-02-25T11:11:14.892880",
+    "star": false
+  },
+  {
+    "id": 2,
+    "query": "explain about toolbar",
+    "answer": "The Toolbar is a widget that appears at the top of the Agent Desktop interface in the system you're referring to. It provides various options for the user, including the current time, logged-in agent name, and auxiliary (aux) codes. Aux codes can be accessed by clicking on them.\n\nThe \"Change AD Display Settings\" option allows users to modify various display settings within the Agent Desktop interface, such as color themes, web fonts, layout styles, navigation bar settings, toolbar settings, and widget display settings.\n\nRegarding types of widgets, they can be categorized into four main groups: Toolbar, Navbar, Content, and AOT (Automated Outbound Transfer) widgets. The Toolbar widget has been discussed, but the other categories are further divided into sub-types.\n\nNavbar widgets include:\n1. Navigation Bar: Contains links to various sections within the Agent Desktop interface.\n2. Quick Links: Provides quick access to frequently used pages or functions.\n3. Favorites: Allows users to save and access their favorite pages or functions quickly.\n4. Search: Enables users to search for specific content within the Agent Desktop interface.\n\nContent widgets include:\n1. Interaction History: Displays a list of interactions (e.g., calls, chats) with customers.\n2. Workspace: Provides a space for agents to manage and organize their work items.\n3. Performance Dashboard: Shows key performance indicators (KPIs) related to the agent's performance.\n4. Knowledge Base: Offers access to articles, FAQs, or other knowledge resources.\n5. Co-browse: Allows agents and customers to view and interact with each other within a shared browser session.\n6. Screen Share: Enables agents to share their screen with customers for demonstrations or troubleshooting purposes.\n7. Chat: Provides real-time text-based communication between the agent and customer.\n8. Voice Call: Allows voice calls between the agent and customer.\n9. Video Call: Supports video calls between the agent and customer.\n10. Email: Enables agents to send and receive emails from customers.\n11. SMS: Provides text messaging capabilities with customers.\n12. Social Media Integration: Offers support for interactions through various social media platforms.\n\nAOT widgets are used for automated outbound transfers, such as voice broadcasting or email campaigns. These widgets allow agents to initiate and manage these types of interactions without requiring a customer's active participation.",
+    "section": "Toolbar",
+    "images": [
+      {
+        "url": "/static/images/img_30.png",
+        "caption": "Toolbar"
+      },
+      {
+        "url": "/static/images/img_31.png",
+        "caption": "Toolbar"
+      },
+      {
+        "url": "/static/images/img_32.png",
+        "caption": "Toolbar"
+      },
+      {
+        "url": "/static/images/img_27.png",
+        "caption": "Types of widgets"
+      },
+      {
+        "url": "/static/images/img_28.png",
+        "caption": "Types of widgets"
+      },
+      {
+        "url": "/static/images/img_29.png",
+        "caption": "Types of widgets"
+      }
+    ],
+    "time": "2026-02-25T11:23:08.717287",
+    "star": false
+  },
+  {
+    "id": 3,
+    "query": "explain about login page",
+    "answer": "The Login page in AD (Application) is a web-based interface used for agents to access the system. To log in, users need to open their preferred web browser (such as Chrome, Firefox, Microsoft Edge, or Safari), enter the contact center's URL in the format `https://<domain_name>:<port>/<server_name>`. They then input their LDAP ID, LDAP password, and station ID before clicking \"Log In\". Upon successful login, the home page is displayed, which serves as the first page seen by the Agent and provides access to the main dashboard of the Agent Desktop.\n\nThe Home Page offers various features, including a Login section for user authentication, an Auto-login feature that logs users in automatically upon loading AD, and additional functionalities like creating event/task reminders on a calendar displayed on the page.\n\nTo log out of TMAC (Telephony Management Application Client), users can choose \"Logout\" from the status drop-down menu and then click \"Confirm\". This action will log them out of TMAC, returning them to the login page.\n\nThe Home Page provides valuable interaction data and key information to help agents monitor their efficiency in handling customer interactions and improve performance according to contact-center standards. It also features a calendar that can be viewed on a daily, weekly, or monthly basis, with the ability to create event/task reminders using the + icon on the calendar.",
+    "section": "Login",
+    "images": [
+      {
+        "url": "/static/images/img_18.png",
+        "caption": "Login"
+      },
+      {
+        "url": "/static/images/img_19.png",
+        "caption": "Login"
+      },
+      {
+        "url": "/static/images/img_20.png",
+        "caption": "Login"
+      },
+      {
+        "url": "/static/images/img_69.png",
+        "caption": "Home Page"
+      },
+      {
+        "url": "/static/images/img_70.png",
+        "caption": "Home Page"
+      },
+      {
+        "url": "/static/images/img_71.png",
+        "caption": "Home Page"
+      }
+    ],
+    "time": "2026-02-25T11:28:35.041007",
+    "star": false
+  },
+  {
+    "id": 4,
+    "query": "explain about social m",
+    "answer": "From the provided content, it appears to be a documentation or user interface snippets for a chat application or system. Here's a brief explanation for each section:\n\n1. Content::\n   This seems to be a list of agents in a chat service named \"Transfer Chat.\" The first column might display the agent's name, and the second column could indicate their status (e.g., available, away, busy).\n\n2. Viewing Calendar:\n   In this section, there is a conference chat with Kavitha M as the participant. The 'x a' could be an indicator of availability or status (e.g., available, away). The Bot Conference Skill List might refer to a list of skills or features associated with the bot participating in the conference chat. First Name 1D Status could be another status indicator for Kavitha M.\n\n3. Home:\n   This section seems to indicate that there is no ongoing email interaction yet, as it says \"No email interaction yet!\" The symbol '*' and numbers '2)' and '[=] i)' might be navigation or action indicators within the application. B 9 Qo e 2 © could be additional information or actions related to the home screen.",
+    "section": "Content:",
+    "images": [
+      {
+        "url": "/static/images/img_57.png",
+        "caption": "Content:"
+      },
+      {
+        "url": "/static/images/img_58.png",
+        "caption": "Content:"
+      },
+      {
+        "url": "/static/images/img_59.png",
+        "caption": "Content:"
+      },
+      {
+        "url": "/static/images/img_84.png",
+        "caption": "Viewing Calendar"
+      },
+      {
+        "url": "/static/images/img_85.png",
+        "caption": "Viewing Calendar"
+      },
+      {
+        "url": "/static/images/img_86.png",
+        "caption": "Viewing Calendar"
+      },
+      {
+        "url": "/static/images/img_21.png",
+        "caption": "Home"
+      },
+      {
+        "url": "/static/images/img_22.png",
+        "caption": "Home"
+      }
+    ],
+    "time": "2026-02-25T11:34:19.838116",
+    "star": false
+  },
+  {
+    "id": 5,
+    "query": "explain about Social Media Actions",
+    "answer": "The documentation describes a system for managing social media interactions within a business context, specifically focusing on Facebook, Twitter, and Instagram. The system is organized into segments based on these channels and categorized by skill sets. Each interaction includes the account name of the customer who commented or replied, along with their comment or reply.\n\nThe Workbench, a central hub for managing interactions, has a Social Media tab that contains four sections: Queued (unassigned social media interactions), Inbox (both assigned and unassigned interactions), Sent (sent social media interactions), and Drafts (drafted but unsent interactions).\n\nWhen customers comment or reply on the business's posts on these platforms, the details of these comments are automatically added as interactions within the Social Media tab of the Workbench. However, posts created by the business itself will not be routed to the Agent Desktop (AD). Only customer comments and replies on these business posts will be directed to the AD.\n\nAgents can take several actions on social media interactions in the Workbench:\n\n1. Pull Interaction: This allows an agent to respond to a specific post comment by pulling the interaction, assigning it to themselves, and displaying it in the Social Media Interaction tab.\n2. Transfer Interaction: Agents can forward an interaction to another agent for handling.\n3. Close Interaction: An agent can close an interaction without responding to the customer's comments. This action does not resolve the interaction, but simply marks it as closed within the system.",
+    "section": "Social Media Segments",
+    "images": [],
+    "time": "2026-02-25T11:37:27.873675",
+    "star": false
+  },
+  {
+    "id": 6,
+    "query": "explain about agent dekstop in detail with images",
+    "answer": "I'm unable to provide images, but I can certainly describe the features of Agent Desktop based on the provided information.\n\n1. Home: This is the main dashboard for the agent where they interact with customers. The content on this page varies depending on the specific customer and business. It serves as a central hub for managing customer interactions.\n\n2. Work Codes: This section is likely used by agents to access work codes or tickets assigned to them. These work codes represent individual customer issues or requests that need attention.\n\n3. View Interaction Details: This feature allows agents to view the details of a specific interaction, such as the customer's issue, conversation history, and any relevant account information. By having all this information in one place, agents can provide more personalized and efficient service to customers.",
+    "section": "Home",
+    "images": [
+      {
+        "url": "/static/images/img_21.png",
+        "caption": "Home"
+      },
+      {
+        "url": "/static/images/img_22.png",
+        "caption": "Home"
+      },
+      {
+        "url": "/static/images/img_23.png",
+        "caption": "Home"
+      },
+      {
+        "url": "/static/images/img_111.png",
+        "caption": "Work Codes"
+      },
+      {
+        "url": "/static/images/img_112.png",
+        "caption": "Work Codes"
+      },
+      {
+        "url": "/static/images/img_113.png",
+        "caption": "Work Codes"
+      },
+      {
+        "url": "/static/images/img_123.png",
+        "caption": "View Interaction Details"
+      },
+      {
+        "url": "/static/images/img_124.png",
+        "caption": "View Interaction Details"
+      }
+    ],
+    "time": "2026-02-25T11:42:55.062898",
+    "star": false
+  },
+  {
+    "id": 7,
+    "query": "explain about navbar",
+    "answer": "Navbar, in the context provided, refers to a specific type of widget used within the dynamic interface of AD (Assistant Desktop). It is part of the T-Widgets, which are the building blocks for creating, configuring, and maintaining these interfaces. The Navbar widgets are divided into two sections: Top and Bottom, as indicated by their placement on the Navbar.\n\nIn a high-level view, T-Widgets can be categorized into Toolbar, Navbar, Content, and AOT (Always on top) widgets. The Navbar widgets are one of these categories.\n\nThe Navbar widgets are visually represented by the yellow box in the diagram provided. They are positioned within the Navbar section of the webpage. The specific functions or sub-types of these Navbar widgets are not detailed in the information given, but they likely serve to provide navigation, display important links, or perform other useful tasks within the interface.\n\nFor a comprehensive understanding, it would be beneficial to consult the complete documentation or further resources related to AD T-Widgets and their specific functionalities.",
+    "section": "Navbar",
+    "images": [
+      {
+        "url": "/static/images/img_54.png",
+        "caption": "Navbar"
+      },
+      {
+        "url": "/static/images/img_55.png",
+        "caption": "Navbar"
+      },
+      {
+        "url": "/static/images/img_56.png",
+        "caption": "Navbar"
+      },
+      {
+        "url": "/static/images/img_27.png",
+        "caption": "Types of widgets"
+      },
+      {
+        "url": "/static/images/img_28.png",
+        "caption": "Types of widgets"
+      },
+      {
+        "url": "/static/images/img_29.png",
+        "caption": "Types of widgets"
+      },
+      {
+        "url": "/static/images/img_24.png",
+        "caption": "T-Widgets"
+      },
+      {
+        "url": "/static/images/img_25.png",
+        "caption": "T-Widgets"
+      }
+    ],
+    "time": "2026-02-25T11:48:38.032932",
+    "star": false
+  },
+  {
+    "id": 8,
+    "query": "explain about social media posts",
+    "answer": "In summary, the Workbench's Social Media Tab is a feature that automatically adds customer interactions (comments or replies) on business posts from monitored accounts on Facebook, Instagram, and Twitter as interactions within the tab. These interactions will be organized by channels (Facebook, Twitter, Instagram) and skill sets within each channel. The Social Media Interactions are categorized into Queued, Inbox, Sent, Drafts sections in the Workbench.\n\nSocial Media Actions refer to editing, deleting posts or their comments/replies, or reacting to post comments or replies on social media platforms. When an action occurs on a post already active in the Social Media tab, the Agent Desktop will reflect these changes. For example, if a post is edited, a popup message 'Post has been edited!' will be displayed for the current interaction, and agents will receive a notification. The edited posts will be refreshed in social media posts widgets in the interaction tab. Clicking the notification will take agents to the Posts section of the Workbench, where the recently edited post will be highlighted and displayed. The Edit Icon will be updated to reflect the changes, and the previous content will no longer be visible.",
+    "section": "Workbench – Social Media Tab",
+    "images": [],
+    "time": "2026-02-25T11:51:41.365982",
+    "star": false
+  },
+  {
+    "id": 9,
+    "query": "explain about T-widgets",
+    "answer": "T-Widgets is a system that manages dynamic widgets within an Application Dashboard (AD). These widgets are categorized into four main types: Toolbar, Navbar, Content, and AOT (Always On Top) widgets. Each type has specific functions and positions on the webpage.\n\n1. Toolbar Widgets: These widgets are represented by a red box in the T-Widgets division diagram. Their primary function is to provide tools or controls that are essential for interacting with the application.\n\n2. Navbar Widgets: The yellow section in the diagram represents Navbar Widgets. They typically contain navigation links, search bars, and other elements that help users navigate through the application.\n\n3. Content Widgets: The blue section indicates Content Widgets. These widgets display the main content of the application, such as charts, tables, text, images, etc.\n\n4. AOT (Always On Top) Widgets: The purple box represents AOT Widgets. As their name suggests, these widgets are designed to always appear on top of other widgets, ensuring they remain visible regardless of user interactions or scrolling.\n\nDynamic widgets, as mentioned in the documentation, are those that can change based on user interactions, such as during email, chat, or voice interactions. Their configurations are stored in WidgetConfigData files located at TMAC_SERVER/widgets/interactions/(interaction_channel).json. Some dynamic widgets may be mandatory for specific interaction types, like the \"Email Controls\" widget in an email interaction.\n\nIn summary, T-Widgets is a comprehensive system for creating, configuring, and maintaining dynamic widgets within an Application Dashboard, with each widget type serving a unique function on the webpage.",
+    "section": "Types of widgets",
+    "images": [
+      {
+        "url": "/static/images/img_27.png",
+        "caption": "Types of widgets"
+      },
+      {
+        "url": "/static/images/img_28.png",
+        "caption": "Types of widgets"
+      },
+      {
+        "url": "/static/images/img_29.png",
+        "caption": "Types of widgets"
+      },
+      {
+        "url": "/static/images/img_60.png",
+        "caption": "Static / Dynamic Widgets:"
+      },
+      {
+        "url": "/static/images/img_61.png",
+        "caption": "Static / Dynamic Widgets:"
+      },
+      {
+        "url": "/static/images/img_62.png",
+        "caption": "Static / Dynamic Widgets:"
+      },
+      {
+        "url": "/static/images/img_24.png",
+        "caption": "T-Widgets"
+      },
+      {
+        "url": "/static/images/img_25.png",
+        "caption": "T-Widgets"
+      }
+    ],
+    "time": "2026-02-25T11:54:55.586104",
+    "star": false
+  },
+  {
+    "id": 10,
+    "query": "explain about T-widgets with diagram",
+    "answer": "T-Widgets are a set of customizable interface elements used in the T-System, a customer service platform for the business of AD. The main types of T-Widgets include Toolbar, Navbar, Content, and AOT (Advanced On-the-Fly) widgets.\n\n1. **Navbar Widget**: This is a top-level navigation bar that provides quick access to various sections within the T-System. It can be customized to display different options based on user roles and permissions.\n\n   ![Navbar Widget Diagram](https://i.imgur.com/hXkK54U.png)\n\n2. **Content Widget**: This is a dynamic area that displays the main content of the screen, such as chat windows with customers or system messages. The Content widget can be further divided into:\n   - **Chat Window**: Displays the conversation between an agent and a customer.\n   - **System Messages**: Displays system-generated messages, alerts, or notifications.\n   - **Knowledge Base**: Provides quick access to predefined responses, FAQs, or articles that can help agents during conversations with customers.\n\n   ![Content Widget Diagram](https://i.imgur.com/hXkK54U.png)\n\n3. **Transfer the Chat**: During a conversation with a customer, agents can transfer the chat to another agent or skill list if they are unable to assist the customer. This allows for seamless handoff and ensures that customers receive help from the most appropriate agent.\n\n   ![Transfer Chat Diagram](https://i.imgur.com/hXkK54U.png) (This is not a specific widget but a functionality within the system)",
+    "section": "Types of widgets",
+    "images": [
+      {
+        "url": "/static/images/img_27.png",
+        "caption": "Types of widgets"
+      },
+      {
+        "url": "/static/images/img_28.png",
+        "caption": "Types of widgets"
+      },
+      {
+        "url": "/static/images/img_29.png",
+        "caption": "Types of widgets"
+      },
+      {
+        "url": "/static/images/img_21.png",
+        "caption": "Home"
+      },
+      {
+        "url": "/static/images/img_22.png",
+        "caption": "Home"
+      },
+      {
+        "url": "/static/images/img_23.png",
+        "caption": "Home"
+      }
+    ],
+    "time": "2026-02-25T11:57:26.855042",
+    "star": false
+  },
+  {
+    "id": 11,
+    "query": "explain about T-widgets",
+    "answer": "T-Widgets is a system that manages dynamic widgets within the AD dashboard. It is divided into several types and sub-types based on the separation of the webpage. Here's a breakdown:\n\n1. Toolbar Widgets: These are represented by the red box in the diagram. The Toolbar widgets are located at the top of the webpage, typically used for navigation or controlling various functions within the dashboard.\n\n2. Navbar Widgets: Represented by the yellow section in the diagram, these widgets are also positioned at the top of the webpage but usually contain links to different sections or pages within the application.\n\n3. Content Widgets: The blue section indicates the Content widgets. These widgets hold the main content on the page, such as charts, tables, text, and other types of data visualizations.\n\n4. AOT (Always On Top) Widgets: Indicated by the purple box in the diagram, these widgets are designed to always appear on top of other widgets regardless of their position or stacking order. This is useful for elements that need to be constantly visible during user interactions.\n\nDynamic widgets, as mentioned in point [2], can change their configurations based on interaction-related events and will pull their settings from WidgetConfigData files located at TMAC_SERVER/widgets/interactions/(interaction_channel).json. Some dynamic widgets are mandatory for specific interaction types, such as the \"Email Controls\" widget in email interactions.\n\nIn summary, T-Widgets is a system that manages various types of widgets within the AD dashboard, including Toolbar, Navbar, Content, and AOT widgets, with some widgets being dynamic and changing based on interaction events.",
+    "section": "Types of widgets",
+    "images": [
+      {
+        "url": "/static/images/img_27.png",
+        "caption": "Types of widgets"
+      },
+      {
+        "url": "/static/images/img_28.png",
+        "caption": "Types of widgets"
+      },
+      {
+        "url": "/static/images/img_29.png",
+        "caption": "Types of widgets"
+      },
+      {
+        "url": "/static/images/img_60.png",
+        "caption": "Static / Dynamic Widgets:"
+      },
+      {
+        "url": "/static/images/img_61.png",
+        "caption": "Static / Dynamic Widgets:"
+      },
+      {
+        "url": "/static/images/img_62.png",
+        "caption": "Static / Dynamic Widgets:"
+      },
+      {
+        "url": "/static/images/img_24.png",
+        "caption": "T-Widgets"
+      },
+      {
+        "url": "/static/images/img_25.png",
+        "caption": "T-Widgets"
+      }
+    ],
+    "time": "2026-02-25T12:00:40.626965",
+    "star": false
+  },
+  {
+    "id": 12,
+    "query": "explain about T-widgets",
+    "answer": "T-Widgets is a system that manages dynamic widgets within the AD dashboard. It allows for the creation, configuration, and maintenance of these dynamic widgets. The widgets are categorized into different types and sub-types based on the separation of the webpage.\n\n1. Toolbar Widgets: These are represented by the red box in the T-Widgets diagram. They typically provide common functionality across multiple pages or sections of the dashboard.\n\n2. Navbar Widgets: The yellow section in the diagram represents Navbar widgets. These are usually located at the top of the page and provide navigation links to different parts of the dashboard.\n\n3. Content Widgets: The blue section indicates Content widgets. These are the main widgets that display the primary content on the page.\n\n4. AOT (Always on Top) Widgets: The purple box represents AOT widgets. These widgets stay on top of all other widgets and are typically used for essential functionality that needs to be always visible, such as \"Email Controls\", \"Chat\", or \"Voice controls\" in different interaction types like email, chat, or voice interactions.\n\nDynamic widgets, as mentioned in the documentation, are those that may change based on interactions with the system, particularly during user interactions. Their configurations are taken from WidgetConfigData sent by the TMAC Server on corresponding interaction-based events. These dynamic widget configurations can be found in the TMAC_SERVER/widgets/interactions/(interaction_channel).json files.",
+    "section": "Types of widgets",
+    "images": [
+      {
+        "url": "/static/images/img_27.png",
+        "caption": "Types of widgets"
+      },
+      {
+        "url": "/static/images/img_28.png",
+        "caption": "Types of widgets"
+      },
+      {
+        "url": "/static/images/img_29.png",
+        "caption": "Types of widgets"
+      },
+      {
+        "url": "/static/images/img_60.png",
+        "caption": "Static / Dynamic Widgets:"
+      },
+      {
+        "url": "/static/images/img_61.png",
+        "caption": "Static / Dynamic Widgets:"
+      },
+      {
+        "url": "/static/images/img_62.png",
+        "caption": "Static / Dynamic Widgets:"
+      },
+      {
+        "url": "/static/images/img_24.png",
+        "caption": "T-Widgets"
+      },
+      {
+        "url": "/static/images/img_25.png",
+        "caption": "T-Widgets"
+      }
+    ],
+    "time": "2026-02-25T12:02:25.820277",
+    "star": false
+  },
+  {
+    "id": 13,
+    "query": "explain about toolbar",
+    "answer": "The Toolbar is a user interface element located at the top of the Agent Desktop in a Helpdesk system (as per your documentation). It provides various options for the agent, such as time display, logged-in agent name, and auxiliary codes that appear when clicked.\n\nThe Change AD Display Settings option allows agents to customize their TMAC display settings. This includes modifying color themes, web fonts, layout styles, navigation bar settings, toolbar settings, and widget display settings.\n\nIn terms of widgets, they can be categorized into four main types: Toolbar, Navbar, Content, and AOT (Automated Outbound Transactions) widgets. The Toolbar is one of these categories. The Navbar and Content widgets are further divided into various sub-types as discussed in the T-Widgets section of your documentation. However, the details about these sub-types are not provided in the information you've shared.",
+    "section": "Toolbar",
+    "images": [
+      {
+        "url": "/static/images/img_30.png",
+        "caption": "Toolbar"
+      },
+      {
+        "url": "/static/images/img_31.png",
+        "caption": "Toolbar"
+      },
+      {
+        "url": "/static/images/img_32.png",
+        "caption": "Toolbar"
+      },
+      {
+        "url": "/static/images/img_27.png",
+        "caption": "Types of widgets"
+      },
+      {
+        "url": "/static/images/img_28.png",
+        "caption": "Types of widgets"
+      },
+      {
+        "url": "/static/images/img_29.png",
+        "caption": "Types of widgets"
+      }
+    ],
+    "time": "2026-02-25T12:04:12.110975",
+    "star": false
+  },
+  {
+    "id": 14,
+    "query": "explain about toolbar",
+    "answer": "The Toolbar is a user interface element in the Agent Desktop of Happiest Minds Technologies (presumably). It's displayed at the top of the interface and contains various options for the logged-in agent. These options may include the current time, the logged-in agent's name, auxiliary codes, and other settings related to the display, such as color themes, web fonts, layout styles, navigation bar settings, and toolbar settings.\n\nThe \"Change AD Display Settings\" option allows the user to modify various aspects of the TMAC (presumably a system or application) display, including color themes, web fonts, layout styles, navigation bar settings, toolbar settings, and widget display settings.\n\nIn terms of widgets, they can be categorized into four main types: Toolbar, Navbar, Content, and AOT (Automation for Outlook) widgets. The Toolbar widget is one of these categories. The Navbar and Content widgets are further divided into different sub-types, but the documentation does not provide specific details about these sub-types in this section.",
+    "section": "Toolbar",
+    "images": [
+      {
+        "url": "/static/images/img_30.png",
+        "caption": "Toolbar"
+      },
+      {
+        "url": "/static/images/img_31.png",
+        "caption": "Toolbar"
+      },
+      {
+        "url": "/static/images/img_32.png",
+        "caption": "Toolbar"
+      },
+      {
+        "url": "/static/images/img_27.png",
+        "caption": "Types of widgets"
+      },
+      {
+        "url": "/static/images/img_28.png",
+        "caption": "Types of widgets"
+      },
+      {
+        "url": "/static/images/img_29.png",
+        "caption": "Types of widgets"
+      }
+    ],
+    "time": "2026-02-25T12:05:24.876916",
+    "star": false
+  },
+  {
+    "id": 15,
+    "query": "what is agent desktop?",
+    "answer": "The Agent Desktop is a user interface in a call center or customer service environment, designed with widgets that allow seamless management of information distribution without the need for additional applications. It can be personalized by adding, removing, or repositioning widgets according to specific requirements. Agents can log into this desktop using their station ID via the Web Phone. The Agent Desktop also seems to have a feature for work codes, although the exact functionality is not specified in the provided documentation.",
+    "section": "User Interface Overview",
+    "images": [
+      {
+        "url": "/static/images/img_12.png",
+        "caption": "User Interface Overview"
+      },
+      {
+        "url": "/static/images/img_13.png",
+        "caption": "User Interface Overview"
+      },
+      {
+        "url": "/static/images/img_14.png",
+        "caption": "User Interface Overview"
+      },
+      {
+        "url": "/static/images/img_18.png",
+        "caption": "Login"
+      },
+      {
+        "url": "/static/images/img_19.png",
+        "caption": "Login"
+      },
+      {
+        "url": "/static/images/img_20.png",
+        "caption": "Login"
+      },
+      {
+        "url": "/static/images/img_111.png",
+        "caption": "Work Codes"
+      },
+      {
+        "url": "/static/images/img_112.png",
+        "caption": "Work Codes"
+      }
+    ],
+    "time": "2026-02-25T12:19:15.413689",
+    "star": false
+  },
+  {
+    "id": 16,
+    "query": "tell me in steps how to login?",
+    "answer": "[1] To log into the system using provided query parameters, follow these steps:\n\n1. Open your web browser and navigate to the login page of the contact center. The URL format should be `https://<domain_name>:<port>/<server_name>`.\n\n2. If you want to pass the user’s lanid automatically, include `lanid=<your_lanid>` in the URL. For example: `https://<domain_name>:<port>/<server_name>?lanid=123456`.\n\n   If you want to pass the station id the user wants to log into automatically, include `stationid=<your_station_id>` in the URL. For example: `https://<domain_name>:<port>/<server_name>?stationid=789012`.\n\n   If you want to enable PBX on login, pass '1' or 'true' as a value for PBX. For example: `https://<domain_name>:<port>/<server_name>?PBX=true`.\n\n3. If the lanid is not provided, an error message will appear stating \"LAN ID Not Provided\".\n\n4. If you toggle the “Login to PBX?” or “Login to Web phone” button, you must manually input the station as it’s a required field.\n\n[2] To log into AD (Agent Desktop):\n\n1. Open your web browser and enter your contact center’s URL in the address bar.\n\n2. Enter your LDAP ID.\n\n3. Enter your LDAP password.\n\n4. Enter your station ID.\n\n5. Click on \"Log In\".\n\n6. On successful login, the home page is displayed. This is the login page used by the Agent to login to AD.\n\n[3] As for the App Information section, it seems there's no specific information about logging in provided.",
+    "section": "Login",
+    "images": [
+      {
+        "url": "/static/images/img_18.png",
+        "caption": "Login"
+      },
+      {
+        "url": "/static/images/img_19.png",
+        "caption": "Login"
+      },
+      {
+        "url": "/static/images/img_20.png",
+        "caption": "Login"
+      },
+      {
+        "url": "/static/images/img_51.png",
+        "caption": "App Information"
+      },
+      {
+        "url": "/static/images/img_52.png",
+        "caption": "App Information"
+      },
+      {
+        "url": "/static/images/img_53.png",
+        "caption": "App Information"
+      }
+    ],
+    "time": "2026-02-25T12:23:34.643310",
+    "star": false
+  },
+  {
+    "id": 17,
+    "query": "explain about social media posts",
+    "answer": "In summary, the \"Social Media\" tab in the Workbench is a feature that allows businesses to manage interactions with customers on Facebook, Instagram, and Twitter. When a customer comments or replies on a business post from a monitored account on these platforms, the interaction will be automatically added as an interaction within the Social Media tab of the Workbench.\n\nThe Social Media Interactions are organized by channels (Facebook, Twitter, Instagram) and categorized by skill sets. Each interaction displays the customer's account name and comment or reply text. Clicking on an interaction reveals details about the post, including the total number of reactions and comments associated with it.\n\nThe Social Media tab includes several sections: Queued (unassigned interactions), Inbox (both assigned and unassigned interactions), Sent (sent social media interactions), Drafts (drafted social media interactions).\n\nSocial Media Actions refer to the ability for agents to edit, delete posts or their comments/replies, or react to post comments or replies on these platforms. When an action occurs on a social media platform for an interaction already active in the Social Media tab, the Agent Desktop will reflect these changes. For example, if a post is edited, a popup message 'Post has been edited!' will be displayed, and a notification will be sent to agents. The edited posts will be refreshed in social media posts widgets within the interaction tab. Clicking the notification takes agents to the Posts section of the Workbench where the recently edited post will be highlighted and displayed. The Edit Icon will be updated to reflect the changes, and the previous content will no longer be visible.",
+    "section": "Workbench – Social Media Tab",
+    "images": [],
+    "time": "2026-02-25T12:41:35.882929",
+    "star": false
+  },
+  {
+    "id": 18,
+    "query": "explain about Content / Stand-alone Widgets:",
+    "answer": "Content/Stand-alone Widgets refer to individual, self-contained units of interactive content within a larger Content Widget in the context of a webpage or application. These stand-alone widgets can be configured and managed within the T-Widgets section. The Content Widget itself is one type of widget, and it contains multiple stand-alone widgets.\n\nThe classification of Content/Stand-alone Widgets allows for different configurations based on the requirements of various pages. For example, an interactive page may require a specific setup that differs from a non-interactive page.\n\nIn addition to Content Widgets, there are other types of widgets: Toolbar, Navbar, and AOT (Always on top) widgets. These types can further be divided into sub-types based on their functionality and placement within the webpage.\n\nT-Widgets is a system where all dynamic widgets for the application or website are created, configured, and maintained. The division of these widgets is primarily based on the separation of the webpage, as shown in the red box (Toolbar), yellow (Navbar), blue (Content), and purple (AOT) boxes in the diagram.",
+    "section": "Content / Stand-alone Widgets:",
+    "images": [
+      {
+        "url": "/static/images/img_66.png",
+        "caption": "Content / Stand-alone Widgets:"
+      },
+      {
+        "url": "/static/images/img_67.png",
+        "caption": "Content / Stand-alone Widgets:"
+      },
+      {
+        "url": "/static/images/img_68.png",
+        "caption": "Content / Stand-alone Widgets:"
+      },
+      {
+        "url": "/static/images/img_27.png",
+        "caption": "Types of widgets"
+      },
+      {
+        "url": "/static/images/img_28.png",
+        "caption": "Types of widgets"
+      },
+      {
+        "url": "/static/images/img_29.png",
+        "caption": "Types of widgets"
+      },
+      {
+        "url": "/static/images/img_24.png",
+        "caption": "T-Widgets"
+      },
+      {
+        "url": "/static/images/img_25.png",
+        "caption": "T-Widgets"
+      }
+    ],
+    "time": "2026-02-25T13:03:56.547460",
+    "star": false
+  },
+  {
+    "id": 19,
+    "query": "can explain about tetherfi",
+    "answer": "TetherFi, in the context of these examples, appears to be a term or concept related to \"Agent Desktop.\" However, without specific documentation or further context, it's challenging to provide an accurate explanation. Here are three possible interpretations based on the provided examples:\n\n1. SUPERVISOR: TetherFi might refer to a supervisory function or feature within Agent Desktop. This could mean that TetherFi is used for monitoring, managing, or providing oversight to agents using the platform.\n\n2. Work Codes: In this case, tetherfi could be a specific work code or identifier used within Agent Desktop. It might be associated with tasks, projects, or other types of work items.\n\n3. Content / Stand-alone Widgets: TetherFi could possibly be a type of content or stand-alone widget available in Agent Desktop. This could mean that it's an interactive element used for providing additional functionality or information to the user.\n\nWithout more context, it is difficult to definitively determine the exact meaning of tetherfi within Agent Desktop. If you have access to further documentation or specific examples, I would recommend reviewing those resources for a clearer understanding.",
+    "section": "SUPERVISOR",
+    "images": [
+      {
+        "url": "/static/images/img_90.png",
+        "caption": "SUPERVISOR"
+      },
+      {
+        "url": "/static/images/img_91.png",
+        "caption": "SUPERVISOR"
+      },
+      {
+        "url": "/static/images/img_92.png",
+        "caption": "SUPERVISOR"
+      },
+      {
+        "url": "/static/images/img_111.png",
+        "caption": "Work Codes"
+      },
+      {
+        "url": "/static/images/img_112.png",
+        "caption": "Work Codes"
+      },
+      {
+        "url": "/static/images/img_113.png",
+        "caption": "Work Codes"
+      },
+      {
+        "url": "/static/images/img_66.png",
+        "caption": "Content / Stand-alone Widgets:"
+      },
+      {
+        "url": "/static/images/img_67.png",
+        "caption": "Content / Stand-alone Widgets:"
+      }
+    ],
+    "time": "2026-02-25T13:05:42.290065",
+    "star": false
+  },
+  {
+    "id": 20,
+    "query": "explain about social media posts in detail",
+    "answer": "In summary, the Workbench's Social Media Tab is a feature that allows businesses to manage interactions with customers on Facebook, Instagram, and Twitter. When a customer comments or replies on posts from monitored business accounts on these platforms, the details of these interactions are automatically added as interactions within the \"Social Media\" tab of the Workbench.\n\nThese social media interactions are organized by channels (Facebook, Twitter, Instagram) and categorized by skill sets. Each interaction shows the account name of the customer who commented or replied, along with the text of their comment or reply. Clicking on an interaction reveals details about the post, including the total number of reactions and comments associated with it.\n\nThe Social Media tab includes several sections: Queued (contains all unassigned social media interactions), Inbox (includes both assigned and unassigned interactions), Sent (displays sent social media interactions), and Drafts (contains drafted social media interactions).\n\nSocial Media Actions refer to actions taken on social media platforms that are reflected in the Agent Desktop. For example, if a post is edited on a social media platform for an interaction already active in the social media tab, the Agent Desktop will display a popup message indicating that the post has been edited, and a notification will be sent to agents. The edited posts will also be refreshed in social media posts widgets within the social media interaction tab. Clicking the notification takes agents to the Posts section of the Workbench, where the recently edited post is highlighted and displayed. The Edit Icon is updated to reflect the changes, and the previous content can be viewed by clicking on the icon's history.",
+    "section": "Workbench – Social Media Tab",
+    "images": [],
+    "time": "2026-02-25T13:12:31.098818",
+    "star": false
+  },
+  {
+    "id": 21,
+    "query": "explain about social media posts in detail with image",
+    "answer": "In the context of the provided documentation, we're discussing the features and functionalities related to social media posts within an Agent Desktop interface. Here's a detailed explanation:\n\n1) Social Media Segments:\nThe Social Media Interactions are organized into three main channels - Facebook, Twitter, and Instagram. Each interaction includes the account name of the customer who commented or replied, along with their text. Clicking on an interaction will reveal details about the post, such as the total number of reactions and comments associated with it. The Workbench's Social Media tab has four sections: Queued (unassigned interactions), Inbox (both assigned and unassigned interactions), Sent (sent social media interactions), and Drafts (drafted social media interactions).\n\n2) Social Media Actions:\nWhen actions such as editing, deleting posts or their comments/replies, or reacting to post comments/replies occur on social media platforms for active interactions in the Social Media tab, the Agent Desktop will reflect these changes. For example, if a post is edited, a popup message \"Post has been edited!\" will be displayed, and agents will receive a notification. Edited posts will then be refreshed in social media posts widgets within the interaction tab. Clicking the notification will take agents to the Posts section of the Workbench, where the recently edited post will be highlighted and displayed. The Edit Icon will be updated to reflect the changes, and the previous content will be archived for reference.\n\n3) Social Media Interaction – Floating Window:\nClicking on a social media post within the Social Media Posts Widget in the Social Media Interaction tab will open a pop-out window displaying all social media interactions. This allows agents to easily manage multiple interactions at once without switching between tabs or windows. The floating window provides a more streamlined and efficient way to handle customer inquiries and responses across different social media platforms.",
+    "section": "Social Media Segments",
+    "images": [],
+    "time": "2026-02-25T13:15:25.212613",
+    "star": false
+  },
+  {
+    "id": 22,
+    "query": "explain about T-widgets with diagram",
+    "answer": "T-Widgets are a set of customizable interface elements used in the T-System, a customer service platform. They are divided into four main types: Toolbar, Navbar, Content, and AOT (Any Of Type) widgets.\n\n1. **Toolbar**: This is a horizontal bar at the top or bottom of the screen that contains buttons for various functions like minimizing, maximizing, or closing the window. It can also include options for switching between different views or applications.\n\n2. **Navbar**: This is a vertical bar on the left side of the screen that provides navigation and organization for the Content widgets. It allows agents to easily access different sections of the dashboard. The Navbar can be further divided into two sub-types: Static Navbar and Dynamic Navbar.\n\n   - **Static Navbar**: This is a fixed Navbar that contains predefined sections or pages.\n\n   - **Dynamic Navbar**: This Navbar generates its content dynamically based on the context of the conversation, such as displaying relevant customer data or chat history.\n\n3. **Content Widgets**: These are the main components that make up the body of the dashboard. They provide information and tools for interacting with customers. Content widgets can be further divided into two sub-types: Static Content and Dynamic Content.\n\n   - **Static Content**: This type of content remains the same for all customers and does not change during a conversation. Examples include welcome messages, FAQ sections, or product information.\n\n   - **Dynamic Content**: This type of content changes based on the customer's interactions or the context of the conversation. For example, it could display the customer's name, account details, or chat history.\n\n4. **AOT (Any Of Type) Widgets**: These are widgets that can be any of the above types (Toolbar, Navbar, Content) and can be placed anywhere on the dashboard. This allows for flexibility in designing the interface to best suit the needs of the business.\n\nIn addition to these, there's also a feature called \"Transfer the chat\". During a conversation with a customer, agents can transfer the call or chat to another agent or skill list if they are unable to assist the customer themselves. This ensures that the customer always receives help from an agent who can best address their issue.\n\nHere is a simple diagram to illustrate the relationship between these widget types:\n\n```\nT-System Dashboard\n|\n|-- Toolbar\n|   |-- Buttons for functions, switching views, etc.\n|\n|-- Navbar (Static or Dynamic)\n|   |-- Sections for navigation and organization of Content Widgets\n|\n|-- Content (Static or Dynamic)\n|   |-- Information and tools for interacting with customers\n|\n|-- AOT (Any Of Type) Widgets\n|   |-- Can be any of the above types and can be placed anywhere\n|\n|-- Transfer the chat feature\n|   |-- Allows agents to transfer calls or chats to another agent or skill list\n```",
+    "section": "Types of widgets",
+    "images": [
+      {
+        "url": "/static/images/img_27.png",
+        "caption": "Types of widgets"
+      },
+      {
+        "url": "/static/images/img_28.png",
+        "caption": "Types of widgets"
+      },
+      {
+        "url": "/static/images/img_29.png",
+        "caption": "Types of widgets"
+      },
+      {
+        "url": "/static/images/img_21.png",
+        "caption": "Home"
+      },
+      {
+        "url": "/static/images/img_22.png",
+        "caption": "Home"
+      },
+      {
+        "url": "/static/images/img_23.png",
+        "caption": "Home"
+      }
+    ],
+    "time": "2026-02-25T13:19:57.380793",
+    "star": false
+  },
+  {
+    "id": 23,
+    "query": "explain how to transfer a call?",
+    "answer": "To perform a consultation transfer in TMAC, follow these steps:\n\n1. During a call with a customer, if you find that you cannot respond to their query satisfactorily, you can initiate a consultation transfer.\n\n2. Click the 'Consult' button to put the caller on hold and speak to another available agent before transferring the call.\n\n3. The Agent List will display a list of all agents in your team along with their ID and current status. Select the agent you want to transfer the call to.\n\n4. Ensure that the selected agent is available (AVAILABLE status).\n\n5. Enter any transfer comments or specific information about the customer's query for the receiving agent. This will help them better understand the issue at hand.\n\n6. Click 'Transfer'. The consultation transfer is initiated, and you will be connected to the receiving agent.\n\n7. Once both agents confirm the transfer, the call will be successfully transferred to the new agent.",
+    "section": "Transferring a Call",
+    "images": [],
+    "time": "2026-02-25T13:24:54.250718",
+    "star": false
+  },
+  {
+    "id": 24,
+    "query": "explain how to transfer a call with image",
+    "answer": "To transfer a call with an image during a conversation with a customer, follow these steps:\n\n1. During the conversation, if you need to escalate the call or seek assistance from another agent or skill list, initiate a blind transfer by pressing the \"Transfer\" button on your phone or using the transfer feature in your software interface.\n\n2. Select the agent or pool of agents you want to transfer the call to. This is considered a blind transfer as you do not speak to the new agent before transferring the call.\n\n3. While transferring, if possible, you can send an image related to the customer's issue or conversation context to the receiving agent. This could be done through your software interface if it supports file transfers during calls.\n\n4. Once the call is connected to the new agent, briefly explain the situation or the issue the customer is facing (if necessary) so that the new agent can provide immediate assistance.\n\n5. After the call has been transferred and handled by the other agent, you can disconnect from the call by clicking on the \"Disconnect\" button or hanging up your phone.\n\n6. Complete any necessary notes about the transfer in your software interface for future reference. This may include details about the image sent during the transfer.",
+    "section": "Transfer the chat",
+    "images": [],
+    "time": "2026-02-25T13:26:41.424968",
+    "star": false
+  },
+  {
+    "id": 25,
+    "query": "explain about agent desktop",
+    "answer": "The Agent Desktop is a user interface designed for customer service agents. It's built using widgets, which allow for easy management of information without the need to switch between different applications. Agents can customize their desktop by adding, removing, or repositioning these widgets according to their specific requirements.\n\nKey features include:\n1. Work Codes: These are likely unique identifiers assigned to each customer interaction or task. They help agents quickly understand the nature of the interaction and prioritize their work accordingly.\n\n2. SUPERVISOR: This appears to be a feature for supervisors or team leads, providing them with tools to monitor, guide, and manage the performance of the agents on the desktop.",
+    "section": "User Interface Overview",
+    "images": [
+      {
+        "url": "/static/images/img_12.png",
+        "caption": "User Interface Overview"
+      },
+      {
+        "url": "/static/images/img_13.png",
+        "caption": "User Interface Overview"
+      },
+      {
+        "url": "/static/images/img_14.png",
+        "caption": "User Interface Overview"
+      },
+      {
+        "url": "/static/images/img_111.png",
+        "caption": "Work Codes"
+      },
+      {
+        "url": "/static/images/img_112.png",
+        "caption": "Work Codes"
+      },
+      {
+        "url": "/static/images/img_113.png",
+        "caption": "Work Codes"
+      },
+      {
+        "url": "/static/images/img_90.png",
+        "caption": "SUPERVISOR"
+      },
+      {
+        "url": "/static/images/img_91.png",
+        "caption": "SUPERVISOR"
+      }
+    ],
+    "time": "2026-02-25T14:43:07.328756",
+    "star": false
+  }
+]
