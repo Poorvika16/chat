@@ -1,765 +1,668 @@
 [
   {
     "id": 1,
-    "query": "explain about the type of T-widgets",
-    "answer": "In the context of T-Widgets, there are four main types of widgets: Toolbar, Navbar, Content, and AOT (Always on top). These widgets are used to create dynamic content within the Application Design (AD) environment.\n\n1. Toolbar Widgets: These widgets are represented by a red box in the high-level view and are typically located at the top of the webpage. Their purpose is to provide quick access to frequently used functions or features.\n\n2. Navbar Widgets: Yellow indicates Navbar widgets, which are also positioned at the top of the webpage but usually contain links to different sections or pages within the application.\n\n3. Content Widgets: The blue section represents Content widgets, which hold the main content of the page. These widgets can be further divided into various sub-types based on their specific functions or purposes.\n\n4. AOT (Always on top) Widgets: Purple box indicates the AOT widgets, which are designed to stay on top of all other widgets regardless of user interaction or scrolling. This ensures that they remain visible at all times.\n\nIn addition to these main types, there are two categories of widgets based on their behavior: Static and Dynamic Widgets. The difference between them lies in their size and position. Static widgets are displayed on the left side with a fixed size (2x3), while dynamic widgets occupy the 4x3 size of the screen, allowing them to adjust their position and size dynamically based on user interaction or other factors.\n\nThe specific implementation details for creating, configuring, and maintaining these widgets will be covered in subsequent coding sections.",
-    "section": "Types of widgets",
-    "images": [
-      {
-        "url": "/static/images/img_27.png",
-        "caption": "Types of widgets"
-      },
-      {
-        "url": "/static/images/img_28.png",
-        "caption": "Types of widgets"
-      },
-      {
-        "url": "/static/images/img_29.png",
-        "caption": "Types of widgets"
-      },
-      {
-        "url": "/static/images/img_24.png",
-        "caption": "T-Widgets"
-      },
-      {
-        "url": "/static/images/img_25.png",
-        "caption": "T-Widgets"
-      },
-      {
-        "url": "/static/images/img_26.png",
-        "caption": "T-Widgets"
-      },
-      {
-        "url": "/static/images/img_60.png",
-        "caption": "Static / Dynamic Widgets:"
-      },
-      {
-        "url": "/static/images/img_61.png",
-        "caption": "Static / Dynamic Widgets:"
-      }
-    ],
-    "time": "2026-02-25T11:11:14.892880",
+    "query": "explain ad",
+    "answer": "**AD (Agent Desktop) and Social Media Channels**\n\n🔹 **Introduction/Overview**\nAD is a dynamic dashboard that serves as a platform for agents to communicate with customers across various social media channels like Instagram, Twitter, and Facebook.\n\n📌 **In Simple Words**\nAD acts as a central hub for managing customer interactions on social media platforms, routing comments and messages to available agents for response.\n\n🔹 **Key Components/Features**\n- Support for Instagram, Twitter, and Facebook Business Posts/Tweets\n- Comment and message routing to available agents\n- Ability to view and respond to customer comments directly\n\n🔹 **How It Works**\n1. Customer posts a comment or message on a business's social media post.\n2. The comment is routed to the AD platform.\n3. An available agent can view and respond to the comment or message directly from the AD.\n\n🔹 **Real-World Example**\nImagine a customer posts a question about a product on a business's Instagram post. The comment is routed to an agent on the AD, who can view the comment, provide an answer, and respond directly to the customer.\n\n🔹 **Importance/Benefits**\nThis feature allows businesses to manage and respond to customer inquiries more efficiently, improving customer satisfaction and response times.\n\n🔹 **Conclusion**\nAD's integration with social media channels streamlines the process of managing customer interactions, making it easier for agents to provide timely and effective responses.\n\n[Referenced from: Social Media Channel section of the Agent Desktop documentation]\n\nStay tuned for more insights about Agent Desktop!\nIf you have any other questions or need further assistance, feel free to ask!\n\nBest,\nMINI Assistant",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-04T15:52:14.977287",
     "star": false
   },
   {
     "id": 2,
-    "query": "explain about toolbar",
-    "answer": "The Toolbar is a widget that appears at the top of the Agent Desktop interface in the system you're referring to. It provides various options for the user, including the current time, logged-in agent name, and auxiliary (aux) codes. Aux codes can be accessed by clicking on them.\n\nThe \"Change AD Display Settings\" option allows users to modify various display settings within the Agent Desktop interface, such as color themes, web fonts, layout styles, navigation bar settings, toolbar settings, and widget display settings.\n\nRegarding types of widgets, they can be categorized into four main groups: Toolbar, Navbar, Content, and AOT (Automated Outbound Transfer) widgets. The Toolbar widget has been discussed, but the other categories are further divided into sub-types.\n\nNavbar widgets include:\n1. Navigation Bar: Contains links to various sections within the Agent Desktop interface.\n2. Quick Links: Provides quick access to frequently used pages or functions.\n3. Favorites: Allows users to save and access their favorite pages or functions quickly.\n4. Search: Enables users to search for specific content within the Agent Desktop interface.\n\nContent widgets include:\n1. Interaction History: Displays a list of interactions (e.g., calls, chats) with customers.\n2. Workspace: Provides a space for agents to manage and organize their work items.\n3. Performance Dashboard: Shows key performance indicators (KPIs) related to the agent's performance.\n4. Knowledge Base: Offers access to articles, FAQs, or other knowledge resources.\n5. Co-browse: Allows agents and customers to view and interact with each other within a shared browser session.\n6. Screen Share: Enables agents to share their screen with customers for demonstrations or troubleshooting purposes.\n7. Chat: Provides real-time text-based communication between the agent and customer.\n8. Voice Call: Allows voice calls between the agent and customer.\n9. Video Call: Supports video calls between the agent and customer.\n10. Email: Enables agents to send and receive emails from customers.\n11. SMS: Provides text messaging capabilities with customers.\n12. Social Media Integration: Offers support for interactions through various social media platforms.\n\nAOT widgets are used for automated outbound transfers, such as voice broadcasting or email campaigns. These widgets allow agents to initiate and manage these types of interactions without requiring a customer's active participation.",
-    "section": "Toolbar",
-    "images": [
-      {
-        "url": "/static/images/img_30.png",
-        "caption": "Toolbar"
-      },
-      {
-        "url": "/static/images/img_31.png",
-        "caption": "Toolbar"
-      },
-      {
-        "url": "/static/images/img_32.png",
-        "caption": "Toolbar"
-      },
-      {
-        "url": "/static/images/img_27.png",
-        "caption": "Types of widgets"
-      },
-      {
-        "url": "/static/images/img_28.png",
-        "caption": "Types of widgets"
-      },
-      {
-        "url": "/static/images/img_29.png",
-        "caption": "Types of widgets"
-      }
-    ],
-    "time": "2026-02-25T11:23:08.717287",
+    "query": "explain about T-widgets",
+    "answer": "**T-Widgets in Agent Desktop: An Overview**\n\n🔹 **Definition**: T-Widgets are the dynamic widgets within Agent Desktop that are created, configured, and maintained. They are divided into different types and sub-types.\n\n📌 **In Simple Words**: Think of T-Widgets as building blocks for your Agent Desktop interface. They help you customize and organize your workspace for efficient interaction with customers.\n\n🔹 **Key Components/Features**:\n   - **Toolbar**: These are the widgets located in the red box on the webpage. They usually contain common actions like minimizing, maximizing, or closing the application.\n   - **Navbar**: The yellow-indicated widgets on the webpage. They typically contain links to different sections or pages within the application.\n   - **Content**: The blue section indicates the \"Content\" widgets, which hold the main information or functionalities of the application.\n\n🔹 **How It Works**: Each widget can be added, removed, or rearranged to suit your needs. They interact with each other and with the application's core functionality to provide a seamless user experience.\n\n💡 **Real-World Example**: Imagine you're a customer service agent. You can customize your Agent Desktop interface by adding, moving, or removing widgets to make your workflow more efficient. For instance, you might move the chat widget closer for quick access to customer chats.\n\n🔹 **Importance/Benefits**: T-Widgets allow for a high degree of customization, making Agent Desktop a flexible and adaptable tool for various roles and workflows.\n\n**Conclusion**: Understanding T-Widgets is essential for making the most of your Agent Desktop experience. Customize your workspace to suit your needs and improve your efficiency.\n\n**Note**: For more detailed information about specific widgets and their sub-types, please refer to the \"Types of widgets\" and \"T-Widgets\" sections in our documentation.\n\n**Stay productive!** 💻💬",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-04T15:57:42.714580",
     "star": false
   },
   {
     "id": 3,
-    "query": "explain about login page",
-    "answer": "The Login page in AD (Application) is a web-based interface used for agents to access the system. To log in, users need to open their preferred web browser (such as Chrome, Firefox, Microsoft Edge, or Safari), enter the contact center's URL in the format `https://<domain_name>:<port>/<server_name>`. They then input their LDAP ID, LDAP password, and station ID before clicking \"Log In\". Upon successful login, the home page is displayed, which serves as the first page seen by the Agent and provides access to the main dashboard of the Agent Desktop.\n\nThe Home Page offers various features, including a Login section for user authentication, an Auto-login feature that logs users in automatically upon loading AD, and additional functionalities like creating event/task reminders on a calendar displayed on the page.\n\nTo log out of TMAC (Telephony Management Application Client), users can choose \"Logout\" from the status drop-down menu and then click \"Confirm\". This action will log them out of TMAC, returning them to the login page.\n\nThe Home Page provides valuable interaction data and key information to help agents monitor their efficiency in handling customer interactions and improve performance according to contact-center standards. It also features a calendar that can be viewed on a daily, weekly, or monthly basis, with the ability to create event/task reminders using the + icon on the calendar.",
-    "section": "Login",
-    "images": [
-      {
-        "url": "/static/images/img_18.png",
-        "caption": "Login"
-      },
-      {
-        "url": "/static/images/img_19.png",
-        "caption": "Login"
-      },
-      {
-        "url": "/static/images/img_20.png",
-        "caption": "Login"
-      },
-      {
-        "url": "/static/images/img_69.png",
-        "caption": "Home Page"
-      },
-      {
-        "url": "/static/images/img_70.png",
-        "caption": "Home Page"
-      },
-      {
-        "url": "/static/images/img_71.png",
-        "caption": "Home Page"
-      }
-    ],
-    "time": "2026-02-25T11:28:35.041007",
+    "query": "where the aux codes are configured",
+    "answer": "**ANSWER:**\n\n**Where the Aux Codes are Configured**\n\n**1. Introduction/Overview**\n- Aux codes, also known as status codes, are used in Agent Desktop to change the agent's status.\n\n**2. In Simple Words**\n- Aux codes are values that represent different agent statuses, such as Available, Break, or Logout.\n\n**3. Key Components/Features**\n- 🔹 Aux codes are stored in the AGT_AuxCodes table in the database.\n- 🔹 These codes are sent to the Avaya Communication Manager (CM) using TSAPI when an agent selects a status from the dropdown.\n\n**4. How It Works**\n- When an agent selects an aux code from the dropdown, the corresponding value is sent to the Avaya CM.\n- If the Avaya CM recognizes the value (it is configured in CM reason codes), the agent's status is updated accordingly.\n\n**5. Real-World Example**\n- For instance, if an agent selects the \"Logout\" status, the value 10 (if it's configured as such) is sent to the Avaya CM, and the agent's status is updated to Logout.\n\n**6. Importance/Benefits**\n- Aux codes allow agents to easily change their status, which is crucial for managing their availability and workload.\n\n**7. Conclusion**\n- Understanding where aux codes are configured can help you manage your status effectively in Agent Desktop.",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-04T16:02:44.639997",
     "star": false
   },
   {
     "id": 4,
-    "query": "explain about social m",
-    "answer": "From the provided content, it appears to be a documentation or user interface snippets for a chat application or system. Here's a brief explanation for each section:\n\n1. Content::\n   This seems to be a list of agents in a chat service named \"Transfer Chat.\" The first column might display the agent's name, and the second column could indicate their status (e.g., available, away, busy).\n\n2. Viewing Calendar:\n   In this section, there is a conference chat with Kavitha M as the participant. The 'x a' could be an indicator of availability or status (e.g., available, away). The Bot Conference Skill List might refer to a list of skills or features associated with the bot participating in the conference chat. First Name 1D Status could be another status indicator for Kavitha M.\n\n3. Home:\n   This section seems to indicate that there is no ongoing email interaction yet, as it says \"No email interaction yet!\" The symbol '*' and numbers '2)' and '[=] i)' might be navigation or action indicators within the application. B 9 Qo e 2 © could be additional information or actions related to the home screen.",
-    "section": "Content:",
-    "images": [
-      {
-        "url": "/static/images/img_57.png",
-        "caption": "Content:"
-      },
-      {
-        "url": "/static/images/img_58.png",
-        "caption": "Content:"
-      },
-      {
-        "url": "/static/images/img_59.png",
-        "caption": "Content:"
-      },
-      {
-        "url": "/static/images/img_84.png",
-        "caption": "Viewing Calendar"
-      },
-      {
-        "url": "/static/images/img_85.png",
-        "caption": "Viewing Calendar"
-      },
-      {
-        "url": "/static/images/img_86.png",
-        "caption": "Viewing Calendar"
-      },
-      {
-        "url": "/static/images/img_21.png",
-        "caption": "Home"
-      },
-      {
-        "url": "/static/images/img_22.png",
-        "caption": "Home"
-      }
-    ],
-    "time": "2026-02-25T11:34:19.838116",
+    "query": "where the aux codes are configured",
+    "answer": "**Answer:**\n\n**Where the Aux Codes are Configured** (HOW TO DO SOMETHING)\n\n1. **What You'll Accomplish** - You will learn how to configure Aux codes in the Agent Desktop software.\n\n2. **Prerequisites** - You should have access to the Agent Desktop software and the necessary permissions to make changes in the OCM (Omni-Channel Manager).\n\n3. **Step-by-Step Instructions**\n   🔹 Log in to the OCM.\n   🔹 Navigate to the Agent Aux Codes section.\n   🔹 Add or edit the Aux codes as needed.\n   🔹 Save the changes.\n\n4. **Expected Outcome** - After following these steps, the Aux codes will be updated and should be reflected in the Agent Desktop software.\n\n5. **Tips and Notes**\n   💡 Remember, for the Aux codes to work correctly, they must be in sync between the AGT_AuxCodes table in Agent Desktop and Avaya CM.\n   💡 The Aux codes you see in the Agent Desktop UI are coming from the AGT_AuxCodes table.\n   💡 The value of an Aux code selected from the dropdown is sent to Avaya CM using TSAPI.\n\n6. **Related Tasks** - You might also need to configure the Avaya CM to recognize the Aux codes if they are not already configured in the reason codes.\n\n**Conclusion** - By following these steps, you can configure Aux codes in the Agent Desktop software. If you encounter any issues or need further assistance, feel free to ask!\n\n**Source:** [FAQ 1] When the status is changed to Logout or other it sets to default in Agent Desktop",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-04T16:04:59.901986",
     "star": false
   },
   {
     "id": 5,
-    "query": "explain about Social Media Actions",
-    "answer": "The documentation describes a system for managing social media interactions within a business context, specifically focusing on Facebook, Twitter, and Instagram. The system is organized into segments based on these channels and categorized by skill sets. Each interaction includes the account name of the customer who commented or replied, along with their comment or reply.\n\nThe Workbench, a central hub for managing interactions, has a Social Media tab that contains four sections: Queued (unassigned social media interactions), Inbox (both assigned and unassigned interactions), Sent (sent social media interactions), and Drafts (drafted but unsent interactions).\n\nWhen customers comment or reply on the business's posts on these platforms, the details of these comments are automatically added as interactions within the Social Media tab of the Workbench. However, posts created by the business itself will not be routed to the Agent Desktop (AD). Only customer comments and replies on these business posts will be directed to the AD.\n\nAgents can take several actions on social media interactions in the Workbench:\n\n1. Pull Interaction: This allows an agent to respond to a specific post comment by pulling the interaction, assigning it to themselves, and displaying it in the Social Media Interaction tab.\n2. Transfer Interaction: Agents can forward an interaction to another agent for handling.\n3. Close Interaction: An agent can close an interaction without responding to the customer's comments. This action does not resolve the interaction, but simply marks it as closed within the system.",
-    "section": "Social Media Segments",
+    "query": "explain about T-widgets",
+    "answer": "**T-Widgets in Agent Desktop: An Overview**\n\n🔹 **Definition**: T-Widgets are the dynamic widgets within Agent Desktop that are created, configured, and maintained. They are divided into different types and sub-types.\n\n📌 **In Simple Words**: Think of T-Widgets as building blocks for your Agent Desktop interface. They help you customize and organize your workspace for efficient interaction with customers.\n\n🔹 **Key Components/Features**:\n   - **Toolbar**: These are the widgets located in the red box on the webpage. They usually contain common actions like minimizing, maximizing, or closing the application.\n   - **Navbar**: The yellow-indicated widgets on the webpage. They typically contain links to different sections or pages within the application.\n   - **Content**: The blue section indicates the \"Content\" widgets, which hold the main information or functionalities of the application.\n\n🔹 **How It Works**: Each widget can be added, removed, or rearranged to suit your needs. They interact with each other and with the application's core functionality to provide a seamless user experience.\n\n💡 **Real-World Example**: Imagine you're a customer service agent. You can customize your Agent Desktop interface by adding, moving, or removing widgets to make your workflow more efficient. For instance, you might move the chat widget closer for quick access to customer chats.\n\n🔹 **Importance/Benefits**: T-Widgets allow for a high degree of customization, making Agent Desktop a flexible and adaptable tool for various roles and workflows.\n\n**Conclusion**: Understanding T-Widgets is essential for making the most of your Agent Desktop experience. Customize your workspace to suit your needs and improve your efficiency.\n\n**Note**: For more detailed information about specific widgets and their sub-types, please refer to the \"Types of widgets\" and \"T-Widgets\" sections in our documentation.\n\n**Stay productive!** 💻💬",
+    "section": "Chat",
     "images": [],
-    "time": "2026-02-25T11:37:27.873675",
+    "time": "2026-03-04T16:20:41.562766",
     "star": false
   },
   {
     "id": 6,
-    "query": "explain about agent dekstop in detail with images",
-    "answer": "I'm unable to provide images, but I can certainly describe the features of Agent Desktop based on the provided information.\n\n1. Home: This is the main dashboard for the agent where they interact with customers. The content on this page varies depending on the specific customer and business. It serves as a central hub for managing customer interactions.\n\n2. Work Codes: This section is likely used by agents to access work codes or tickets assigned to them. These work codes represent individual customer issues or requests that need attention.\n\n3. View Interaction Details: This feature allows agents to view the details of a specific interaction, such as the customer's issue, conversation history, and any relevant account information. By having all this information in one place, agents can provide more personalized and efficient service to customers.",
-    "section": "Home",
-    "images": [
-      {
-        "url": "/static/images/img_21.png",
-        "caption": "Home"
-      },
-      {
-        "url": "/static/images/img_22.png",
-        "caption": "Home"
-      },
-      {
-        "url": "/static/images/img_23.png",
-        "caption": "Home"
-      },
-      {
-        "url": "/static/images/img_111.png",
-        "caption": "Work Codes"
-      },
-      {
-        "url": "/static/images/img_112.png",
-        "caption": "Work Codes"
-      },
-      {
-        "url": "/static/images/img_113.png",
-        "caption": "Work Codes"
-      },
-      {
-        "url": "/static/images/img_123.png",
-        "caption": "View Interaction Details"
-      },
-      {
-        "url": "/static/images/img_124.png",
-        "caption": "View Interaction Details"
-      }
-    ],
-    "time": "2026-02-25T11:42:55.062898",
+    "query": "where the aux codes are configured",
+    "answer": "The Aux codes (status codes) are configured in the AGT_AuxCodes table and synced with Avaya CM. If the Aux code values in the AGT_AuxCodes table don't match with the ones in Avaya CM, the status will revert to default.",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-04T16:32:24.710128",
     "star": false
   },
   {
     "id": 7,
-    "query": "explain about navbar",
-    "answer": "Navbar, in the context provided, refers to a specific type of widget used within the dynamic interface of AD (Assistant Desktop). It is part of the T-Widgets, which are the building blocks for creating, configuring, and maintaining these interfaces. The Navbar widgets are divided into two sections: Top and Bottom, as indicated by their placement on the Navbar.\n\nIn a high-level view, T-Widgets can be categorized into Toolbar, Navbar, Content, and AOT (Always on top) widgets. The Navbar widgets are one of these categories.\n\nThe Navbar widgets are visually represented by the yellow box in the diagram provided. They are positioned within the Navbar section of the webpage. The specific functions or sub-types of these Navbar widgets are not detailed in the information given, but they likely serve to provide navigation, display important links, or perform other useful tasks within the interface.\n\nFor a comprehensive understanding, it would be beneficial to consult the complete documentation or further resources related to AD T-Widgets and their specific functionalities.",
-    "section": "Navbar",
-    "images": [
-      {
-        "url": "/static/images/img_54.png",
-        "caption": "Navbar"
-      },
-      {
-        "url": "/static/images/img_55.png",
-        "caption": "Navbar"
-      },
-      {
-        "url": "/static/images/img_56.png",
-        "caption": "Navbar"
-      },
-      {
-        "url": "/static/images/img_27.png",
-        "caption": "Types of widgets"
-      },
-      {
-        "url": "/static/images/img_28.png",
-        "caption": "Types of widgets"
-      },
-      {
-        "url": "/static/images/img_29.png",
-        "caption": "Types of widgets"
-      },
-      {
-        "url": "/static/images/img_24.png",
-        "caption": "T-Widgets"
-      },
-      {
-        "url": "/static/images/img_25.png",
-        "caption": "T-Widgets"
-      }
-    ],
-    "time": "2026-02-25T11:48:38.032932",
+    "query": "explain about T-widgets",
+    "answer": "T-widgets, as per the provided documentation, are dynamic widgets on the AD dashboard that are created during interactions. Their configurations are taken from WidgetConfigData sent by the TMAC Server on interaction-based events, which makes them larger than static widgets, as shown in the screenshot.",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-04T16:34:07.000248",
     "star": false
   },
   {
     "id": 8,
-    "query": "explain about social media posts",
-    "answer": "In summary, the Workbench's Social Media Tab is a feature that automatically adds customer interactions (comments or replies) on business posts from monitored accounts on Facebook, Instagram, and Twitter as interactions within the tab. These interactions will be organized by channels (Facebook, Twitter, Instagram) and skill sets within each channel. The Social Media Interactions are categorized into Queued, Inbox, Sent, Drafts sections in the Workbench.\n\nSocial Media Actions refer to editing, deleting posts or their comments/replies, or reacting to post comments or replies on social media platforms. When an action occurs on a post already active in the Social Media tab, the Agent Desktop will reflect these changes. For example, if a post is edited, a popup message 'Post has been edited!' will be displayed for the current interaction, and agents will receive a notification. The edited posts will be refreshed in social media posts widgets in the interaction tab. Clicking the notification will take agents to the Posts section of the Workbench, where the recently edited post will be highlighted and displayed. The Edit Icon will be updated to reflect the changes, and the previous content will no longer be visible.",
-    "section": "Workbench – Social Media Tab",
+    "query": "where the aux codes are configured",
+    "answer": "**Answer:**\n\nAux codes, also known as status codes, are an essential feature in Agent Desktop that help agents change their status. Here's a breakdown of how they work:\n\n**1. Definition**\nAux codes are predefined statuses that agents can select from a dropdown menu in Agent Desktop. These codes are used to communicate the agent's current status to the system, such as \"Available,\" \"On Break,\" or \"In Training.\"\n\n**2. Common Uses**\nAgents use aux codes to indicate their availability for calls or chats, allowing the system to route customer interactions appropriately. These codes can also be used to track agent activity and productivity.\n\n**3. Configuration**\nTo configure aux codes, you'll need to access the system settings in Agent Desktop. Here are the steps:\n\n- What You'll Accomplish: You'll learn how to configure aux codes in Agent Desktop.\n- Prerequisites: You'll need access to the Agent Desktop system settings.\n- Step-by-Step Instructions:\n  1. Log in to Agent Desktop.\n  2. Navigate to the system settings.\n  3. Find the Aux Codes section.\n  4. Add, edit, or delete aux codes as needed.\n  5. Save your changes.\n\n**4. Expected Outcome**\nAfter following these steps, you should see your configured aux codes appearing in the dropdown menu in Agent Desktop.\n\n**5. Tips and Notes**\n- Ensure that the aux codes accurately reflect the agent's status to maintain proper system functionality.\n- Regularly review and update aux codes as needed to keep them relevant and up-to-date.\n\n**6. Related Tasks**\nOnce you've configured aux codes, you might want to explore other features in Agent Desktop, such as call handling, chat management, or reporting.\n\nIf you have any questions or need further assistance, feel free to ask! I'm here to help.\n\nBest regards,\nYour Assistant",
+    "section": "Chat",
     "images": [],
-    "time": "2026-02-25T11:51:41.365982",
+    "time": "2026-03-04T16:43:50.686107",
     "star": false
   },
   {
     "id": 9,
-    "query": "explain about T-widgets",
-    "answer": "T-Widgets is a system that manages dynamic widgets within an Application Dashboard (AD). These widgets are categorized into four main types: Toolbar, Navbar, Content, and AOT (Always On Top) widgets. Each type has specific functions and positions on the webpage.\n\n1. Toolbar Widgets: These widgets are represented by a red box in the T-Widgets division diagram. Their primary function is to provide tools or controls that are essential for interacting with the application.\n\n2. Navbar Widgets: The yellow section in the diagram represents Navbar Widgets. They typically contain navigation links, search bars, and other elements that help users navigate through the application.\n\n3. Content Widgets: The blue section indicates Content Widgets. These widgets display the main content of the application, such as charts, tables, text, images, etc.\n\n4. AOT (Always On Top) Widgets: The purple box represents AOT Widgets. As their name suggests, these widgets are designed to always appear on top of other widgets, ensuring they remain visible regardless of user interactions or scrolling.\n\nDynamic widgets, as mentioned in the documentation, are those that can change based on user interactions, such as during email, chat, or voice interactions. Their configurations are stored in WidgetConfigData files located at TMAC_SERVER/widgets/interactions/(interaction_channel).json. Some dynamic widgets may be mandatory for specific interaction types, like the \"Email Controls\" widget in an email interaction.\n\nIn summary, T-Widgets is a comprehensive system for creating, configuring, and maintaining dynamic widgets within an Application Dashboard, with each widget type serving a unique function on the webpage.",
-    "section": "Types of widgets",
-    "images": [
-      {
-        "url": "/static/images/img_27.png",
-        "caption": "Types of widgets"
-      },
-      {
-        "url": "/static/images/img_28.png",
-        "caption": "Types of widgets"
-      },
-      {
-        "url": "/static/images/img_29.png",
-        "caption": "Types of widgets"
-      },
-      {
-        "url": "/static/images/img_60.png",
-        "caption": "Static / Dynamic Widgets:"
-      },
-      {
-        "url": "/static/images/img_61.png",
-        "caption": "Static / Dynamic Widgets:"
-      },
-      {
-        "url": "/static/images/img_62.png",
-        "caption": "Static / Dynamic Widgets:"
-      },
-      {
-        "url": "/static/images/img_24.png",
-        "caption": "T-Widgets"
-      },
-      {
-        "url": "/static/images/img_25.png",
-        "caption": "T-Widgets"
-      }
-    ],
-    "time": "2026-02-25T11:54:55.586104",
+    "query": "where the aux codes are configured\\",
+    "answer": "**ANSWER:**\n\n**Where the Aux Codes are Configured**\n\n**Overview:**\nAuxiliary (Aux) codes, also known as status codes, are used in Agent Desktop to indicate the current status of an agent. These codes are crucial for proper communication between the Agent Desktop and the Avaya Communication Manager (CM).\n\n**What You'll Accomplish:**\nIn this guide, we will show you how to configure Aux codes in Agent Desktop.\n\n**Prerequisites:**\nBefore you begin, ensure you have the necessary permissions to access and modify the Aux codes configuration.\n\n**Step-by-Step Instructions:**\n\n1. 📌 Access the Agent Desktop Configuration\n   - Launch Agent Desktop Configuration.\n   - Navigate to the \"Agent\" section.\n\n2. 💡 Locate the Aux Codes Configuration\n   - In the \"Agent\" section, find the \"Aux Codes\" sub-section.\n\n3. 🔹 Edit or Add Aux Codes\n   - To edit an existing Aux code, select it and modify the details as needed.\n   - To add a new Aux code, click \"Add\" and enter the required details.\n\n4. 💡 Save Your Changes\n   - Once you've made your changes, click \"Save\" to apply the updates.\n\n**Expected Outcome:**\nAfter following these steps, you should have successfully configured or updated the Aux codes in Agent Desktop.\n\n**Tips and Notes:**\n- Ensure that the Aux codes you configure are compatible with your Avaya Communication Manager.\n- If you encounter any issues, consult the Agent Desktop documentation or seek assistance from your system administrator.\n\n**Related Tasks:**\n- After configuring Aux codes, you may want to test them to ensure they are functioning correctly.\n- You can also customize other settings in Agent Desktop to optimize your work environment.\n\n**Conclusion:**\nConfiguring Aux codes in Agent Desktop is essential for proper communication between agents and the Avaya Communication Manager. By following the steps outlined in this guide, you can easily manage your Aux codes and ensure smooth operation. If you have any questions or need further assistance, please don't hesitate to ask.",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-04T16:51:35.659250",
     "star": false
   },
   {
     "id": 10,
-    "query": "explain about T-widgets with diagram",
-    "answer": "T-Widgets are a set of customizable interface elements used in the T-System, a customer service platform for the business of AD. The main types of T-Widgets include Toolbar, Navbar, Content, and AOT (Advanced On-the-Fly) widgets.\n\n1. **Navbar Widget**: This is a top-level navigation bar that provides quick access to various sections within the T-System. It can be customized to display different options based on user roles and permissions.\n\n   ![Navbar Widget Diagram](https://i.imgur.com/hXkK54U.png)\n\n2. **Content Widget**: This is a dynamic area that displays the main content of the screen, such as chat windows with customers or system messages. The Content widget can be further divided into:\n   - **Chat Window**: Displays the conversation between an agent and a customer.\n   - **System Messages**: Displays system-generated messages, alerts, or notifications.\n   - **Knowledge Base**: Provides quick access to predefined responses, FAQs, or articles that can help agents during conversations with customers.\n\n   ![Content Widget Diagram](https://i.imgur.com/hXkK54U.png)\n\n3. **Transfer the Chat**: During a conversation with a customer, agents can transfer the chat to another agent or skill list if they are unable to assist the customer. This allows for seamless handoff and ensures that customers receive help from the most appropriate agent.\n\n   ![Transfer Chat Diagram](https://i.imgur.com/hXkK54U.png) (This is not a specific widget but a functionality within the system)",
-    "section": "Types of widgets",
-    "images": [
-      {
-        "url": "/static/images/img_27.png",
-        "caption": "Types of widgets"
-      },
-      {
-        "url": "/static/images/img_28.png",
-        "caption": "Types of widgets"
-      },
-      {
-        "url": "/static/images/img_29.png",
-        "caption": "Types of widgets"
-      },
-      {
-        "url": "/static/images/img_21.png",
-        "caption": "Home"
-      },
-      {
-        "url": "/static/images/img_22.png",
-        "caption": "Home"
-      },
-      {
-        "url": "/static/images/img_23.png",
-        "caption": "Home"
-      }
-    ],
-    "time": "2026-02-25T11:57:26.855042",
+    "query": "explain T-widgets",
+    "answer": "T-Widgets in AD (Assistant Dashboard) are dynamic elements that can be created, configured, and maintained. They are categorized into Toolbar, Navbar, Content, AOT (Always on Top), and possibly other types. Each category represents a specific section of a webpage.",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-04T16:56:47.288451",
     "star": false
   },
   {
     "id": 11,
-    "query": "explain about T-widgets",
-    "answer": "T-Widgets is a system that manages dynamic widgets within the AD dashboard. It is divided into several types and sub-types based on the separation of the webpage. Here's a breakdown:\n\n1. Toolbar Widgets: These are represented by the red box in the diagram. The Toolbar widgets are located at the top of the webpage, typically used for navigation or controlling various functions within the dashboard.\n\n2. Navbar Widgets: Represented by the yellow section in the diagram, these widgets are also positioned at the top of the webpage but usually contain links to different sections or pages within the application.\n\n3. Content Widgets: The blue section indicates the Content widgets. These widgets hold the main content on the page, such as charts, tables, text, and other types of data visualizations.\n\n4. AOT (Always On Top) Widgets: Indicated by the purple box in the diagram, these widgets are designed to always appear on top of other widgets regardless of their position or stacking order. This is useful for elements that need to be constantly visible during user interactions.\n\nDynamic widgets, as mentioned in point [2], can change their configurations based on interaction-related events and will pull their settings from WidgetConfigData files located at TMAC_SERVER/widgets/interactions/(interaction_channel).json. Some dynamic widgets are mandatory for specific interaction types, such as the \"Email Controls\" widget in email interactions.\n\nIn summary, T-Widgets is a system that manages various types of widgets within the AD dashboard, including Toolbar, Navbar, Content, and AOT widgets, with some widgets being dynamic and changing based on interaction events.",
-    "section": "Types of widgets",
-    "images": [
-      {
-        "url": "/static/images/img_27.png",
-        "caption": "Types of widgets"
-      },
-      {
-        "url": "/static/images/img_28.png",
-        "caption": "Types of widgets"
-      },
-      {
-        "url": "/static/images/img_29.png",
-        "caption": "Types of widgets"
-      },
-      {
-        "url": "/static/images/img_60.png",
-        "caption": "Static / Dynamic Widgets:"
-      },
-      {
-        "url": "/static/images/img_61.png",
-        "caption": "Static / Dynamic Widgets:"
-      },
-      {
-        "url": "/static/images/img_62.png",
-        "caption": "Static / Dynamic Widgets:"
-      },
-      {
-        "url": "/static/images/img_24.png",
-        "caption": "T-Widgets"
-      },
-      {
-        "url": "/static/images/img_25.png",
-        "caption": "T-Widgets"
-      }
-    ],
-    "time": "2026-02-25T12:00:40.626965",
+    "query": "do you know about Tiger",
+    "answer": "Tiger is not directly mentioned in the provided documentation. However, the question seems to be a typo or a reference to Stack Overflow for Teams, a product of Stack Overflow. For more resources on Stack Overflow for Teams, you can refer to their help center.",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-04T16:57:37.595165",
     "star": false
   },
   {
     "id": 12,
-    "query": "explain about T-widgets",
-    "answer": "T-Widgets is a system that manages dynamic widgets within the AD dashboard. It allows for the creation, configuration, and maintenance of these dynamic widgets. The widgets are categorized into different types and sub-types based on the separation of the webpage.\n\n1. Toolbar Widgets: These are represented by the red box in the T-Widgets diagram. They typically provide common functionality across multiple pages or sections of the dashboard.\n\n2. Navbar Widgets: The yellow section in the diagram represents Navbar widgets. These are usually located at the top of the page and provide navigation links to different parts of the dashboard.\n\n3. Content Widgets: The blue section indicates Content widgets. These are the main widgets that display the primary content on the page.\n\n4. AOT (Always on Top) Widgets: The purple box represents AOT widgets. These widgets stay on top of all other widgets and are typically used for essential functionality that needs to be always visible, such as \"Email Controls\", \"Chat\", or \"Voice controls\" in different interaction types like email, chat, or voice interactions.\n\nDynamic widgets, as mentioned in the documentation, are those that may change based on interactions with the system, particularly during user interactions. Their configurations are taken from WidgetConfigData sent by the TMAC Server on corresponding interaction-based events. These dynamic widget configurations can be found in the TMAC_SERVER/widgets/interactions/(interaction_channel).json files.",
-    "section": "Types of widgets",
-    "images": [
-      {
-        "url": "/static/images/img_27.png",
-        "caption": "Types of widgets"
-      },
-      {
-        "url": "/static/images/img_28.png",
-        "caption": "Types of widgets"
-      },
-      {
-        "url": "/static/images/img_29.png",
-        "caption": "Types of widgets"
-      },
-      {
-        "url": "/static/images/img_60.png",
-        "caption": "Static / Dynamic Widgets:"
-      },
-      {
-        "url": "/static/images/img_61.png",
-        "caption": "Static / Dynamic Widgets:"
-      },
-      {
-        "url": "/static/images/img_62.png",
-        "caption": "Static / Dynamic Widgets:"
-      },
-      {
-        "url": "/static/images/img_24.png",
-        "caption": "T-Widgets"
-      },
-      {
-        "url": "/static/images/img_25.png",
-        "caption": "T-Widgets"
-      }
-    ],
-    "time": "2026-02-25T12:02:25.820277",
+    "query": "How does Work Queue ACK (Acknowledgement) work",
+    "answer": "**How does Work Queue ACK (Acknowledgement) work?**\n\nTetherfi Work Queue “ACK” feature ensures that a work item is delivered to the TMAC/Agent Desktop UI without fail. When a new item is added to queue, the item is removed from the queue only after the item is routed to the TMAC/AD UI and WQ receives and ACK from the UI.  EMM, TComm adds item to work queue.  In workqueue template.config there are two configs  <add key=\"AcknowledgementRequired\" value=\"1\"/>  <add key=\"WorkItemTTL\" value=\"15000\"/>  If “AcknowledgementRequired” is set to 1, then WQ will add items to queue with ACK enabled.  And the “WorkItemTTL” is the time in milliseconds WQ waits for an acknowledgment from the UI.  If this “WorkItemTTL” is not set or set to 0, then WQ will use the default value “20000” (20 seconds).  After WQ adds the items to queue with ACK enabled, and when the TMAC server receives this WQ item, TMAC server adds a ACK section to the interaction construct event (TextChatIncomingEvent, IncomingEmailEvent)  \"ACK\": { \"IsRequired\": true, \"Source\": \"workqueue\", \"Id\": \"dev210930234153_2618\", \"Channel\": \"TextChat\" }, When the TMAC JS SDK receives this interaction construct event, the SDK checks for this “ACK” property and if the “IsRequired” parameter is set to “true”, the SDK calls TMAC proxy method “EventAcknowledgement” method.TMAC SDK proxy forwards this method to TMAC Server.  When the TMAC JS SDK receives this interaction construct event, the SDK checks for this “ACK” property and if the “IsRequired” parameter is set to “true”, the SDK calls TMAC proxy method “EventAcknowledgement” method.TMAC SDK proxy forwards this method to TMAC Server.    public static CommandResultEvent EventAcknowledgement(string agentId, string channel, string itemId, string source)  agentId – id of the agent who received the event  channel – interaction channel  itemId – session id of the item  source – workqueue    If the source it “workqueue”, then TMAC will forward this method to WQ server.  The WQ will wait for the number of milliseconds configured in “WorkItemTTL”. If the ACK comes before the TTL the item is removed from the queue, else the item will remain in the queue and it will be routed to next agent.",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-04T16:57:52.916686",
     "star": false
   },
   {
     "id": 13,
-    "query": "explain about toolbar",
-    "answer": "The Toolbar is a user interface element located at the top of the Agent Desktop in a Helpdesk system (as per your documentation). It provides various options for the agent, such as time display, logged-in agent name, and auxiliary codes that appear when clicked.\n\nThe Change AD Display Settings option allows agents to customize their TMAC display settings. This includes modifying color themes, web fonts, layout styles, navigation bar settings, toolbar settings, and widget display settings.\n\nIn terms of widgets, they can be categorized into four main types: Toolbar, Navbar, Content, and AOT (Automated Outbound Transactions) widgets. The Toolbar is one of these categories. The Navbar and Content widgets are further divided into various sub-types as discussed in the T-Widgets section of your documentation. However, the details about these sub-types are not provided in the information you've shared.",
-    "section": "Toolbar",
-    "images": [
-      {
-        "url": "/static/images/img_30.png",
-        "caption": "Toolbar"
-      },
-      {
-        "url": "/static/images/img_31.png",
-        "caption": "Toolbar"
-      },
-      {
-        "url": "/static/images/img_32.png",
-        "caption": "Toolbar"
-      },
-      {
-        "url": "/static/images/img_27.png",
-        "caption": "Types of widgets"
-      },
-      {
-        "url": "/static/images/img_28.png",
-        "caption": "Types of widgets"
-      },
-      {
-        "url": "/static/images/img_29.png",
-        "caption": "Types of widgets"
-      }
-    ],
-    "time": "2026-02-25T12:04:12.110975",
+    "query": "who is gandiji",
+    "answer": "**FAQ - StackOverflow**\n\nFAQ QUESTION: Transfer List of OCM\n\nFAQ ANSWER: Refer to:  https://my. The consult transfer is a kind of list of individuals (or departments, speed dial), with a name and a number.",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-04T17:07:22.405313",
     "star": false
   },
   {
     "id": 14,
-    "query": "explain about toolbar",
-    "answer": "The Toolbar is a user interface element in the Agent Desktop of Happiest Minds Technologies (presumably). It's displayed at the top of the interface and contains various options for the logged-in agent. These options may include the current time, the logged-in agent's name, auxiliary codes, and other settings related to the display, such as color themes, web fonts, layout styles, navigation bar settings, and toolbar settings.\n\nThe \"Change AD Display Settings\" option allows the user to modify various aspects of the TMAC (presumably a system or application) display, including color themes, web fonts, layout styles, navigation bar settings, toolbar settings, and widget display settings.\n\nIn terms of widgets, they can be categorized into four main types: Toolbar, Navbar, Content, and AOT (Automation for Outlook) widgets. The Toolbar widget is one of these categories. The Navbar and Content widgets are further divided into different sub-types, but the documentation does not provide specific details about these sub-types in this section.",
-    "section": "Toolbar",
-    "images": [
-      {
-        "url": "/static/images/img_30.png",
-        "caption": "Toolbar"
-      },
-      {
-        "url": "/static/images/img_31.png",
-        "caption": "Toolbar"
-      },
-      {
-        "url": "/static/images/img_32.png",
-        "caption": "Toolbar"
-      },
-      {
-        "url": "/static/images/img_27.png",
-        "caption": "Types of widgets"
-      },
-      {
-        "url": "/static/images/img_28.png",
-        "caption": "Types of widgets"
-      },
-      {
-        "url": "/static/images/img_29.png",
-        "caption": "Types of widgets"
-      }
-    ],
-    "time": "2026-02-25T12:05:24.876916",
+    "query": "explain about agent desktop",
+    "answer": "**Introduction**\n\nSection: Introduction\n\nAgent Desktop is a web-based application that enables agents to communicate with customers across multiple channels such as voice, chat, audio, video, social media and email. It provides 360-degree view of the customer journey and helps agents manage customer interactions across different touchpoints.",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-04T17:09:14.184276",
     "star": false
   },
   {
     "id": 15,
-    "query": "what is agent desktop?",
-    "answer": "The Agent Desktop is a user interface in a call center or customer service environment, designed with widgets that allow seamless management of information distribution without the need for additional applications. It can be personalized by adding, removing, or repositioning widgets according to specific requirements. Agents can log into this desktop using their station ID via the Web Phone. The Agent Desktop also seems to have a feature for work codes, although the exact functionality is not specified in the provided documentation.",
-    "section": "User Interface Overview",
-    "images": [
-      {
-        "url": "/static/images/img_12.png",
-        "caption": "User Interface Overview"
-      },
-      {
-        "url": "/static/images/img_13.png",
-        "caption": "User Interface Overview"
-      },
-      {
-        "url": "/static/images/img_14.png",
-        "caption": "User Interface Overview"
-      },
-      {
-        "url": "/static/images/img_18.png",
-        "caption": "Login"
-      },
-      {
-        "url": "/static/images/img_19.png",
-        "caption": "Login"
-      },
-      {
-        "url": "/static/images/img_20.png",
-        "caption": "Login"
-      },
-      {
-        "url": "/static/images/img_111.png",
-        "caption": "Work Codes"
-      },
-      {
-        "url": "/static/images/img_112.png",
-        "caption": "Work Codes"
-      }
-    ],
-    "time": "2026-02-25T12:19:15.413689",
+    "query": "who is gandiji",
+    "answer": "**FAQ - StackOverflow**\n\nFAQ QUESTION: Transfer List of OCM\n\nFAQ ANSWER: Refer to:  https://my. The consult transfer is a kind of list of individuals (or departments, speed dial), with a name and a number.",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-04T17:09:38.191437",
     "star": false
   },
   {
     "id": 16,
-    "query": "tell me in steps how to login?",
-    "answer": "[1] To log into the system using provided query parameters, follow these steps:\n\n1. Open your web browser and navigate to the login page of the contact center. The URL format should be `https://<domain_name>:<port>/<server_name>`.\n\n2. If you want to pass the user’s lanid automatically, include `lanid=<your_lanid>` in the URL. For example: `https://<domain_name>:<port>/<server_name>?lanid=123456`.\n\n   If you want to pass the station id the user wants to log into automatically, include `stationid=<your_station_id>` in the URL. For example: `https://<domain_name>:<port>/<server_name>?stationid=789012`.\n\n   If you want to enable PBX on login, pass '1' or 'true' as a value for PBX. For example: `https://<domain_name>:<port>/<server_name>?PBX=true`.\n\n3. If the lanid is not provided, an error message will appear stating \"LAN ID Not Provided\".\n\n4. If you toggle the “Login to PBX?” or “Login to Web phone” button, you must manually input the station as it’s a required field.\n\n[2] To log into AD (Agent Desktop):\n\n1. Open your web browser and enter your contact center’s URL in the address bar.\n\n2. Enter your LDAP ID.\n\n3. Enter your LDAP password.\n\n4. Enter your station ID.\n\n5. Click on \"Log In\".\n\n6. On successful login, the home page is displayed. This is the login page used by the Agent to login to AD.\n\n[3] As for the App Information section, it seems there's no specific information about logging in provided.",
-    "section": "Login",
-    "images": [
-      {
-        "url": "/static/images/img_18.png",
-        "caption": "Login"
-      },
-      {
-        "url": "/static/images/img_19.png",
-        "caption": "Login"
-      },
-      {
-        "url": "/static/images/img_20.png",
-        "caption": "Login"
-      },
-      {
-        "url": "/static/images/img_51.png",
-        "caption": "App Information"
-      },
-      {
-        "url": "/static/images/img_52.png",
-        "caption": "App Information"
-      },
-      {
-        "url": "/static/images/img_53.png",
-        "caption": "App Information"
-      }
-    ],
-    "time": "2026-02-25T12:23:34.643310",
+    "query": "do u know tiger",
+    "answer": "**FAQ - StackOverflow**\n\nFAQ QUESTION: How do i find user has what skills on some specific day or date\n\nFAQ ANSWER: You can get these details in two different ways",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-04T17:19:48.895564",
     "star": false
   },
   {
     "id": 17,
-    "query": "explain about social media posts",
-    "answer": "In summary, the \"Social Media\" tab in the Workbench is a feature that allows businesses to manage interactions with customers on Facebook, Instagram, and Twitter. When a customer comments or replies on a business post from a monitored account on these platforms, the interaction will be automatically added as an interaction within the Social Media tab of the Workbench.\n\nThe Social Media Interactions are organized by channels (Facebook, Twitter, Instagram) and categorized by skill sets. Each interaction displays the customer's account name and comment or reply text. Clicking on an interaction reveals details about the post, including the total number of reactions and comments associated with it.\n\nThe Social Media tab includes several sections: Queued (unassigned interactions), Inbox (both assigned and unassigned interactions), Sent (sent social media interactions), Drafts (drafted social media interactions).\n\nSocial Media Actions refer to the ability for agents to edit, delete posts or their comments/replies, or react to post comments or replies on these platforms. When an action occurs on a social media platform for an interaction already active in the Social Media tab, the Agent Desktop will reflect these changes. For example, if a post is edited, a popup message 'Post has been edited!' will be displayed, and a notification will be sent to agents. The edited posts will be refreshed in social media posts widgets within the interaction tab. Clicking the notification takes agents to the Posts section of the Workbench where the recently edited post will be highlighted and displayed. The Edit Icon will be updated to reflect the changes, and the previous content will no longer be visible.",
-    "section": "Workbench – Social Media Tab",
+    "query": "which is the national bird?",
+    "answer": "**FAQ - StackOverflow**\n\nFAQ QUESTION: What OCM Recently Accessed Report List help us to understand?\n\nFAQ ANSWER: Please see below picuture taken from OCMUserGuide_Reporting&Dashboard.",
+    "section": "Chat",
     "images": [],
-    "time": "2026-02-25T12:41:35.882929",
+    "time": "2026-03-04T17:20:08.856946",
     "star": false
   },
   {
     "id": 18,
-    "query": "explain about Content / Stand-alone Widgets:",
-    "answer": "Content/Stand-alone Widgets refer to individual, self-contained units of interactive content within a larger Content Widget in the context of a webpage or application. These stand-alone widgets can be configured and managed within the T-Widgets section. The Content Widget itself is one type of widget, and it contains multiple stand-alone widgets.\n\nThe classification of Content/Stand-alone Widgets allows for different configurations based on the requirements of various pages. For example, an interactive page may require a specific setup that differs from a non-interactive page.\n\nIn addition to Content Widgets, there are other types of widgets: Toolbar, Navbar, and AOT (Always on top) widgets. These types can further be divided into sub-types based on their functionality and placement within the webpage.\n\nT-Widgets is a system where all dynamic widgets for the application or website are created, configured, and maintained. The division of these widgets is primarily based on the separation of the webpage, as shown in the red box (Toolbar), yellow (Navbar), blue (Content), and purple (AOT) boxes in the diagram.",
-    "section": "Content / Stand-alone Widgets:",
-    "images": [
-      {
-        "url": "/static/images/img_66.png",
-        "caption": "Content / Stand-alone Widgets:"
-      },
-      {
-        "url": "/static/images/img_67.png",
-        "caption": "Content / Stand-alone Widgets:"
-      },
-      {
-        "url": "/static/images/img_68.png",
-        "caption": "Content / Stand-alone Widgets:"
-      },
-      {
-        "url": "/static/images/img_27.png",
-        "caption": "Types of widgets"
-      },
-      {
-        "url": "/static/images/img_28.png",
-        "caption": "Types of widgets"
-      },
-      {
-        "url": "/static/images/img_29.png",
-        "caption": "Types of widgets"
-      },
-      {
-        "url": "/static/images/img_24.png",
-        "caption": "T-Widgets"
-      },
-      {
-        "url": "/static/images/img_25.png",
-        "caption": "T-Widgets"
-      }
-    ],
-    "time": "2026-02-25T13:03:56.547460",
+    "query": "explain about Tiger",
+    "answer": "**Can you explain how the workqueue processing works?**\n\nPlease refer to:  https://docs.google.com/document/d/184Ujem6vKS9mx0ui0fCkswD7i-n9mm8oDPtuylYIhP0/edit",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-04T17:24:08.533111",
     "star": false
   },
   {
     "id": 19,
-    "query": "can explain about tetherfi",
-    "answer": "TetherFi, in the context of these examples, appears to be a term or concept related to \"Agent Desktop.\" However, without specific documentation or further context, it's challenging to provide an accurate explanation. Here are three possible interpretations based on the provided examples:\n\n1. SUPERVISOR: TetherFi might refer to a supervisory function or feature within Agent Desktop. This could mean that TetherFi is used for monitoring, managing, or providing oversight to agents using the platform.\n\n2. Work Codes: In this case, tetherfi could be a specific work code or identifier used within Agent Desktop. It might be associated with tasks, projects, or other types of work items.\n\n3. Content / Stand-alone Widgets: TetherFi could possibly be a type of content or stand-alone widget available in Agent Desktop. This could mean that it's an interactive element used for providing additional functionality or information to the user.\n\nWithout more context, it is difficult to definitively determine the exact meaning of tetherfi within Agent Desktop. If you have access to further documentation or specific examples, I would recommend reviewing those resources for a clearer understanding.",
-    "section": "SUPERVISOR",
-    "images": [
-      {
-        "url": "/static/images/img_90.png",
-        "caption": "SUPERVISOR"
-      },
-      {
-        "url": "/static/images/img_91.png",
-        "caption": "SUPERVISOR"
-      },
-      {
-        "url": "/static/images/img_92.png",
-        "caption": "SUPERVISOR"
-      },
-      {
-        "url": "/static/images/img_111.png",
-        "caption": "Work Codes"
-      },
-      {
-        "url": "/static/images/img_112.png",
-        "caption": "Work Codes"
-      },
-      {
-        "url": "/static/images/img_113.png",
-        "caption": "Work Codes"
-      },
-      {
-        "url": "/static/images/img_66.png",
-        "caption": "Content / Stand-alone Widgets:"
-      },
-      {
-        "url": "/static/images/img_67.png",
-        "caption": "Content / Stand-alone Widgets:"
-      }
-    ],
-    "time": "2026-02-25T13:05:42.290065",
+    "query": "explain social media posts",
+    "answer": "Social media posts are messages, images, videos, or other content shared on social media platforms such as Facebook, Twitter, Instagram, LinkedIn, etc. These posts can be created by individuals, organizations, or businesses to share information, express opinions, engage with followers, promote products or services, or build relationships. Posts can be public or private, depending on the platform and the user's privacy settings.",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-04T17:24:55.554307",
     "star": false
   },
   {
     "id": 20,
-    "query": "explain about social media posts in detail",
-    "answer": "In summary, the Workbench's Social Media Tab is a feature that allows businesses to manage interactions with customers on Facebook, Instagram, and Twitter. When a customer comments or replies on posts from monitored business accounts on these platforms, the details of these interactions are automatically added as interactions within the \"Social Media\" tab of the Workbench.\n\nThese social media interactions are organized by channels (Facebook, Twitter, Instagram) and categorized by skill sets. Each interaction shows the account name of the customer who commented or replied, along with the text of their comment or reply. Clicking on an interaction reveals details about the post, including the total number of reactions and comments associated with it.\n\nThe Social Media tab includes several sections: Queued (contains all unassigned social media interactions), Inbox (includes both assigned and unassigned interactions), Sent (displays sent social media interactions), and Drafts (contains drafted social media interactions).\n\nSocial Media Actions refer to actions taken on social media platforms that are reflected in the Agent Desktop. For example, if a post is edited on a social media platform for an interaction already active in the social media tab, the Agent Desktop will display a popup message indicating that the post has been edited, and a notification will be sent to agents. The edited posts will also be refreshed in social media posts widgets within the social media interaction tab. Clicking the notification takes agents to the Posts section of the Workbench, where the recently edited post is highlighted and displayed. The Edit Icon is updated to reflect the changes, and the previous content can be viewed by clicking on the icon's history.",
-    "section": "Workbench – Social Media Tab",
+    "query": "IVR to TMAC Data Transfer",
+    "answer": "**How does the TMAC to IVR transfer for TPIN/OTP works?**\n\nWhen an agent receives an incoming call from a customer or makes an outbound call to the customer using Agent Desktop or TMAC UI, sometimes agents are required to collect some secure data from the customer to authenticate the customer. Some of these data might be personal data that cannot be shared with an agent (such as telephone pin, NRIC ID).  In such a scenario, the agent can transfer the customer to an IVR flow that collects these secure data and authenticate the customer within the IVR without involving the agent.  TMAC (Agent Desktop and TMAC UI) provides an \"IVR Transfer\" feature for agents to transfer an incoming or outbound call to an IVR VDN. The most common two IVR transfers are TPIN transfer (IVR authenticates the user with a telephone pin) or OTP transfer (IVR authenticates the user with OTP sent to mobile).  In TMAC UI/Agent Desktop UI, there is a list of IVR transfer endpoints that can be configured using the Agent Desktop JSON. See below sample AD JSON:  \"IVR\": { \"MenuEnabled\": true, \"DefaultMenu\": [ \"Main Menu\", \"Products\", \"Mobile\", \"Agent\" ], \"Transfer\": { \"Allowed\": true, \"Menu\": [ { \"Text\": \"Accesscode+TPIN\", \"Type\": \"v_nv\", \"Value\": \"tpin\", \"Icon\": \"lock\" } ] } }, When the agent clicks the IVR transfer option in the IVR transfer menu, AD/TMACUI calls the TMAC server \"TransferToIvr\" method with the \"value\" in above Menu (\"tpin\" in this example).  When transferring a call to IVR, there are two different modes.  Agent Trasnfer the call to IVR and move to next call  Agent Trasnfer the call to IVR and waits for IVR to send the call back to agent (for TPIN/OTP authentication calls) - this is called \"transfer with aux\"  For TMAC server to identify the mode of transfer, there is a configuration in TMAC server template.conig called \"Voice_IVRTransferTypesRequiresAux\". This config contains a comma separated list of \"values\" which would be considered as mode #2 (transfer and wait for the call to come back to agent).  sample:  <add key=\"Voice_IVRTransferTypesRequiresAux\" value=\"tpin,opt,vb\" />  First TMAC identified the mode of transfer.  Then TMAC server tries to get a record from \"AGT_IVR_Transfer_VDNs\" table based on the provided \"value\". The DB record returns a \"VDN\".  For mode #1 above, TMAC does a blind transfer to IVR VDN. And the agent can close the tab and move to next call.  For mode #2 above, TMAC has to perform several actions.  First TMAC will get the VDN number from the above table.  Then TMAC server prepares the transfer UUI based on the uui.config. For IVR Transfers with AUX enabled, the UUI should contain the \"AgentId\", \"InteractionID\" and the \"Original VDN\" of the call. These values are injected to UUI based on the \"uui.config\" file inside TMAC server folder.  (Latest version of TMAC server >= 5.1.4.15 can inject the original UCID also to the transfer UUI).  Once the UUI is prepared, then TMAC server tries to find a AUX code matching to the transfer \"value\" (ex: tpin). These values are configured in DB table \"AGT_AUX_Codes\" (with value=tpin in this example).  If the aux code is found, then TMAC server first changes the agent state to that aux. If aux code was not found then AUX-0 will be used as default.  Since the agent is still on-call, the state will goto a \"pending\" state and wait for the call to get dropped from agent station.  After changing the the agent state to \"pending-aux\", then TMAC server performs a \"Blind Transfer\" to IVR VDN with the updated UUI.  If the blind transfer is successful, then TMAC server immedialty starts a wait timer which will wait for number of seconds configured in TMAC server template.config \"TransferAUXTime\" value. Usually this value should be greater than the time it might take for customer to complete the IVR flow and connect back to agent. If the this wait timer times out before the IVR send the call back to agent, then a event \"AUXTimerEvent\" is send to AD/TMAC UI.  Also, the agent will be pushed to the AUX state which was configured in \"AGT_AUX_Codes\".  Now the IVR starts promoting the user to enter the details for authentication. IVR may use the \"Original VDN\" number (and/or the Original UCID) entered in the UUI from TMAC serer before blind transfer to decide the IVR flow.  Meantime the agent waits for the call to come back from IVR.  Once the IVR completes the processing of the call, IVR has to send the call back to agent. To identify the agent, IVR uses the UUI's AgentID data section. And then IVR does a blind transfer back to \"agent id\" with updated UUI with new authentication status/data. The UUI may have the agentid and the interaction ID as well (in some IVR implementations, these data can be wiped out before the call is sent back to agent).  When the IVR transfers the call back to \"agent id\", the call will comes to agent's phone but it will start rining based on the \"DAC - direct agent calling\" settings configured in the Avaya CM. Based on this DAC settings, the call will be offered to agent's phone. Since the agent is on \"AUX\" state, and the IVR transfers the call to \"agent id\" (not the station id), the call is considered as a ACD call (based on DAC settings). If the agent is in on AUX when call comes to the phone, the phone will park the call and show an indicator to agent. Then the agent has to goto \"Available\" state to receive the call on AD/TMAC.  Or (based on DAC settings), the agent might get the call directly on AD/TMAC UI without getting parked on the phone.  Either way, when the TMAC server gets the new call, it first checks the UUI for agent id and the interaction ID based on \"uui.config\".  If the \"interaction ID\" is found in the UUI, then TMAC looks for the same interaction in agent session. If the Interaction is found (which means the agent has not closed the interaction yet), then TMAC does not create a new interaction. Instead it used the same interaction and send an \"IncomingCallUpdateEvent\" to the AD/TMAC UI (other events such as UUI data, IVR data also will be processed subsequently). In the AD/TMAC UI the existing interaction tab will be updated with new data.  If the Interaction ID is not found in UUI or the interaction ID is not found in agent session, then a new interaction is created and agent will get the call in a new UI interaction tab (AD/TMAC UI).",
+    "section": "Chat",
     "images": [],
-    "time": "2026-02-25T13:12:31.098818",
+    "time": "2026-03-04T17:25:28.517622",
     "star": false
   },
   {
     "id": 21,
-    "query": "explain about social media posts in detail with image",
-    "answer": "In the context of the provided documentation, we're discussing the features and functionalities related to social media posts within an Agent Desktop interface. Here's a detailed explanation:\n\n1) Social Media Segments:\nThe Social Media Interactions are organized into three main channels - Facebook, Twitter, and Instagram. Each interaction includes the account name of the customer who commented or replied, along with their text. Clicking on an interaction will reveal details about the post, such as the total number of reactions and comments associated with it. The Workbench's Social Media tab has four sections: Queued (unassigned interactions), Inbox (both assigned and unassigned interactions), Sent (sent social media interactions), and Drafts (drafted social media interactions).\n\n2) Social Media Actions:\nWhen actions such as editing, deleting posts or their comments/replies, or reacting to post comments/replies occur on social media platforms for active interactions in the Social Media tab, the Agent Desktop will reflect these changes. For example, if a post is edited, a popup message \"Post has been edited!\" will be displayed, and agents will receive a notification. Edited posts will then be refreshed in social media posts widgets within the interaction tab. Clicking the notification will take agents to the Posts section of the Workbench, where the recently edited post will be highlighted and displayed. The Edit Icon will be updated to reflect the changes, and the previous content will be archived for reference.\n\n3) Social Media Interaction – Floating Window:\nClicking on a social media post within the Social Media Posts Widget in the Social Media Interaction tab will open a pop-out window displaying all social media interactions. This allows agents to easily manage multiple interactions at once without switching between tabs or windows. The floating window provides a more streamlined and efficient way to handle customer inquiries and responses across different social media platforms.",
-    "section": "Social Media Segments",
+    "query": "How does component licensing or TMAC server work",
+    "answer": "**How does TMAC server or any other component licensing work?**\n\nTMAC server has three different licensing modes:  Instance License  Evaluation License  Developer License  Instance License  An instance License is the preferred type of license for the TMAC server. The license is generated by the Tetherfi product team for a provided MAC address of a server. The request to generate the license has to be sent to the product team (there is a designated email address for this) along with required details (customer details, MAC address of the server).  The product team will create the license file and share it with the implementation team. The license comes in a form of a “.lic” file which has to be placed in the Tetherfi License Server folder.  After placing the license file into the Tetherfi License Server/Manager, the Licence server has to be restarted. The Licence server can successfully start only if the license is valid.  During the server startup, the TMAC server tries to connect to licensing server to acquire a valid license. If the license server is not present or if it is stopped (due to an invalid license), the TMAC server will not be able to acquire the license and the TMAC will fallback to next licensing mode (Evaluation License).    TMAC connects to the License server's WCF (HTTP) interface using \"TetherfiLicClient.dll\". The DLL should match the License Server version.  Below configuration is used in TMAC server to configure license server url:  <system.serviceModel> <client> <endpoint address=\"http://localhost/LicenseServer/\" binding=\"basicHttpBinding\" bindingConfiguration=\"basicHttp\" contract=\"TetherfiLicenseServer.ITetherfiLicService\" name=\"LicenseServer1\" /> </client> </system.serviceModel> Evaluation License  The Evaluation license mode can be used for demo and POC purposes. It is not recommended to be used in SIT/UAT/Production systems.  The evaluation license can be generated for TMAC server by the product development team. To generate an eval license, you have to provide the MAC address, IP address, and the expiry date requirement to the product team. Based on the provided data, the product team can generate an evaluation license Key and share it.  The generated evaluation license key has to be placed in template.config file of the TMAC server.  <add key=\"EvalLicenseKey\" value=\"place your key here\" /> And the IP of the server (which was provided to product team) should be configured in below:  <add key=\"EvalLicenseLocalIP\" value=\"10.1.1.10\" /> This IP should be a valid IP assigned to any of the network interfaces of the server. If there is an IP change, then you must get a new eval license key.  The evaluation license takes the second precedence during TMAC server start-up. If the TMAC server was not able to acquire the license from the License Manager/Server, then it looks for an evaluation license in the above “EvalLicenseKey”. The key is then extracted to get the MAC ID, IP, and the expiry date of the key. And these data is then validated against the current server’s MAC ID, IP, and the system date time.  If all the validations are passed, then TMAC server will start successfully, else TMAC will fallback to the next licensing mode (Developer license).  Developer License  The developer license is generally used during the development and testing teams only. Using the development license mode, TMAC can be started without a License Server or an evaluation license. This gives the flexibility to the developers to run the TMAC server in any environment.  The developer license can be configured in the below key in TMAC server template.config.  <add key=\"Developer\" value=\"Add the developer license key here\" /> Number of agent sessions allowed: The license returned from License server has a property called \"MaxAgentsAllowed\" and TMAC will allow that many agent sessions to be created per TMAC server instance. If there is no license server used, then TMAC will use the config \"AgentSession_MaxAgentsAllowed\" to determine the max number of sessions allowed per TMAC server.",
+    "section": "Chat",
     "images": [],
-    "time": "2026-02-25T13:15:25.212613",
+    "time": "2026-03-04T17:26:28.820476",
     "star": false
   },
   {
     "id": 22,
-    "query": "explain about T-widgets with diagram",
-    "answer": "T-Widgets are a set of customizable interface elements used in the T-System, a customer service platform. They are divided into four main types: Toolbar, Navbar, Content, and AOT (Any Of Type) widgets.\n\n1. **Toolbar**: This is a horizontal bar at the top or bottom of the screen that contains buttons for various functions like minimizing, maximizing, or closing the window. It can also include options for switching between different views or applications.\n\n2. **Navbar**: This is a vertical bar on the left side of the screen that provides navigation and organization for the Content widgets. It allows agents to easily access different sections of the dashboard. The Navbar can be further divided into two sub-types: Static Navbar and Dynamic Navbar.\n\n   - **Static Navbar**: This is a fixed Navbar that contains predefined sections or pages.\n\n   - **Dynamic Navbar**: This Navbar generates its content dynamically based on the context of the conversation, such as displaying relevant customer data or chat history.\n\n3. **Content Widgets**: These are the main components that make up the body of the dashboard. They provide information and tools for interacting with customers. Content widgets can be further divided into two sub-types: Static Content and Dynamic Content.\n\n   - **Static Content**: This type of content remains the same for all customers and does not change during a conversation. Examples include welcome messages, FAQ sections, or product information.\n\n   - **Dynamic Content**: This type of content changes based on the customer's interactions or the context of the conversation. For example, it could display the customer's name, account details, or chat history.\n\n4. **AOT (Any Of Type) Widgets**: These are widgets that can be any of the above types (Toolbar, Navbar, Content) and can be placed anywhere on the dashboard. This allows for flexibility in designing the interface to best suit the needs of the business.\n\nIn addition to these, there's also a feature called \"Transfer the chat\". During a conversation with a customer, agents can transfer the call or chat to another agent or skill list if they are unable to assist the customer themselves. This ensures that the customer always receives help from an agent who can best address their issue.\n\nHere is a simple diagram to illustrate the relationship between these widget types:\n\n```\nT-System Dashboard\n|\n|-- Toolbar\n|   |-- Buttons for functions, switching views, etc.\n|\n|-- Navbar (Static or Dynamic)\n|   |-- Sections for navigation and organization of Content Widgets\n|\n|-- Content (Static or Dynamic)\n|   |-- Information and tools for interacting with customers\n|\n|-- AOT (Any Of Type) Widgets\n|   |-- Can be any of the above types and can be placed anywhere\n|\n|-- Transfer the chat feature\n|   |-- Allows agents to transfer calls or chats to another agent or skill list\n```",
-    "section": "Types of widgets",
-    "images": [
-      {
-        "url": "/static/images/img_27.png",
-        "caption": "Types of widgets"
-      },
-      {
-        "url": "/static/images/img_28.png",
-        "caption": "Types of widgets"
-      },
-      {
-        "url": "/static/images/img_29.png",
-        "caption": "Types of widgets"
-      },
-      {
-        "url": "/static/images/img_21.png",
-        "caption": "Home"
-      },
-      {
-        "url": "/static/images/img_22.png",
-        "caption": "Home"
-      },
-      {
-        "url": "/static/images/img_23.png",
-        "caption": "Home"
-      }
-    ],
-    "time": "2026-02-25T13:19:57.380793",
+    "query": "What are T-widgets in Agent Desktop?",
+    "answer": "T-Widgets, in the context of Genesys Agent Desktop, are customizable, interactive, and reusable components that can be added to the agent's workspace. They provide agents with real-time information, tools, and shortcuts to improve productivity and efficiency during customer interactions. Examples of T-Widgets include Interaction Control, Customer Information, and Performance Dashboards.",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-04T17:29:58.139922",
     "star": false
   },
   {
     "id": 23,
-    "query": "explain how to transfer a call?",
-    "answer": "To perform a consultation transfer in TMAC, follow these steps:\n\n1. During a call with a customer, if you find that you cannot respond to their query satisfactorily, you can initiate a consultation transfer.\n\n2. Click the 'Consult' button to put the caller on hold and speak to another available agent before transferring the call.\n\n3. The Agent List will display a list of all agents in your team along with their ID and current status. Select the agent you want to transfer the call to.\n\n4. Ensure that the selected agent is available (AVAILABLE status).\n\n5. Enter any transfer comments or specific information about the customer's query for the receiving agent. This will help them better understand the issue at hand.\n\n6. Click 'Transfer'. The consultation transfer is initiated, and you will be connected to the receiving agent.\n\n7. Once both agents confirm the transfer, the call will be successfully transferred to the new agent.",
-    "section": "Transferring a Call",
+    "query": "How does any other component licensing or TMAC work",
+    "answer": "**How does TMAC server or any other component licensing work?**\n\nTMAC server has three different licensing modes:  Instance License  Evaluation License  Developer License  Instance License  An instance License is the preferred type of license for the TMAC server. The license is generated by the Tetherfi product team for a provided MAC address of a server. The request to generate the license has to be sent to the product team (there is a designated email address for this) along with required details (customer details, MAC address of the server).  The product team will create the license file and share it with the implementation team. The license comes in a form of a “.lic” file which has to be placed in the Tetherfi License Server folder.  After placing the license file into the Tetherfi License Server/Manager, the Licence server has to be restarted. The Licence server can successfully start only if the license is valid.  During the server startup, the TMAC server tries to connect to licensing server to acquire a valid license. If the license server is not present or if it is stopped (due to an invalid license), the TMAC server will not be able to acquire the license and the TMAC will fallback to next licensing mode (Evaluation License).    TMAC connects to the License server's WCF (HTTP) interface using \"TetherfiLicClient.dll\". The DLL should match the License Server version.  Below configuration is used in TMAC server to configure license server url:  <system.serviceModel> <client> <endpoint address=\"http://localhost/LicenseServer/\" binding=\"basicHttpBinding\" bindingConfiguration=\"basicHttp\" contract=\"TetherfiLicenseServer.ITetherfiLicService\" name=\"LicenseServer1\" /> </client> </system.serviceModel> Evaluation License  The Evaluation license mode can be used for demo and POC purposes. It is not recommended to be used in SIT/UAT/Production systems.  The evaluation license can be generated for TMAC server by the product development team. To generate an eval license, you have to provide the MAC address, IP address, and the expiry date requirement to the product team. Based on the provided data, the product team can generate an evaluation license Key and share it.  The generated evaluation license key has to be placed in template.config file of the TMAC server.  <add key=\"EvalLicenseKey\" value=\"place your key here\" /> And the IP of the server (which was provided to product team) should be configured in below:  <add key=\"EvalLicenseLocalIP\" value=\"10.1.1.10\" /> This IP should be a valid IP assigned to any of the network interfaces of the server. If there is an IP change, then you must get a new eval license key.  The evaluation license takes the second precedence during TMAC server start-up. If the TMAC server was not able to acquire the license from the License Manager/Server, then it looks for an evaluation license in the above “EvalLicenseKey”. The key is then extracted to get the MAC ID, IP, and the expiry date of the key. And these data is then validated against the current server’s MAC ID, IP, and the system date time.  If all the validations are passed, then TMAC server will start successfully, else TMAC will fallback to the next licensing mode (Developer license).  Developer License  The developer license is generally used during the development and testing teams only. Using the development license mode, TMAC can be started without a License Server or an evaluation license. This gives the flexibility to the developers to run the TMAC server in any environment.  The developer license can be configured in the below key in TMAC server template.config.  <add key=\"Developer\" value=\"Add the developer license key here\" /> Number of agent sessions allowed: The license returned from License server has a property called \"MaxAgentsAllowed\" and TMAC will allow that many agent sessions to be created per TMAC server instance. If there is no license server used, then TMAC will use the config \"AgentSession_MaxAgentsAllowed\" to determine the max number of sessions allowed per TMAC server.",
+    "section": "Chat",
     "images": [],
-    "time": "2026-02-25T13:24:54.250718",
+    "time": "2026-03-04T17:30:44.728980",
     "star": false
   },
   {
     "id": 24,
-    "query": "explain how to transfer a call with image",
-    "answer": "To transfer a call with an image during a conversation with a customer, follow these steps:\n\n1. During the conversation, if you need to escalate the call or seek assistance from another agent or skill list, initiate a blind transfer by pressing the \"Transfer\" button on your phone or using the transfer feature in your software interface.\n\n2. Select the agent or pool of agents you want to transfer the call to. This is considered a blind transfer as you do not speak to the new agent before transferring the call.\n\n3. While transferring, if possible, you can send an image related to the customer's issue or conversation context to the receiving agent. This could be done through your software interface if it supports file transfers during calls.\n\n4. Once the call is connected to the new agent, briefly explain the situation or the issue the customer is facing (if necessary) so that the new agent can provide immediate assistance.\n\n5. After the call has been transferred and handled by the other agent, you can disconnect from the call by clicking on the \"Disconnect\" button or hanging up your phone.\n\n6. Complete any necessary notes about the transfer in your software interface for future reference. This may include details about the image sent during the transfer.",
-    "section": "Transfer the chat",
+    "query": "who is gandiji",
+    "answer": "**Transfer List of OCM**\n\nRefer to:  https://my.folderit.com/file/view/?id=7860432  enter image description here  In the Skill Transfer module, there are two sections, consult transfer and blind transfer.  The consult transfer is a kind of list of individuals (or departments, speed dial), with a name and a number. The extension contains the remote number to which the call will be transferred to.  The blind transfer is for skill transfer. All the skills that should appear in agent UI are listed here. All these skills should have an associated VDN in Avaya CM, and VDN also should be configured in the OCM module.",
+    "section": "Chat",
     "images": [],
-    "time": "2026-02-25T13:26:41.424968",
+    "time": "2026-03-04T17:30:57.751908",
     "star": false
   },
   {
     "id": 25,
+    "query": "who is Gandiji",
+    "answer": "Mahatma Gandhi, often referred to as Gandiji, was a prominent Indian political and spiritual leader who played a key role in India's struggle for independence from British rule. He is best known for his nonviolent resistance methods, which he called Satyagraha, and is widely recognized as the father of the nation. Gandhi was assassinated on January 30, 1948.",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-04T17:41:41.269173",
+    "star": false
+  },
+  {
+    "id": 26,
+    "query": "where is karnataka located?",
+    "answer": "Karnataka is a state located in southern India. It borders the Arabian Sea to the west, Goa to the northwest, Maharashtra to the north, Telangana and Andhra Pradesh to the east, Tamil Nadu to the southeast, and Kerala to the southwest.",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-04T17:43:07.347824",
+    "star": false
+  },
+  {
+    "id": 27,
+    "query": "How does component licensing or TMAC server work",
+    "answer": "**How does TMAC server or any other component licensing work?**\n\nTMAC server has three different licensing modes:  Instance License  Evaluation License  Developer License  Instance License  An instance License is the preferred type of license for the TMAC server. The license is generated by the Tetherfi product team for a provided MAC address of a server. The request to generate the license has to be sent to the product team (there is a designated email address for this) along with required details (customer details, MAC address of the server).  The product team will create the license file and share it with the implementation team. The license comes in a form of a “.lic” file which has to be placed in the Tetherfi License Server folder.  After placing the license file into the Tetherfi License Server/Manager, the Licence server has to be restarted. The Licence server can successfully start only if the license is valid.  During the server startup, the TMAC server tries to connect to licensing server to acquire a valid license. If the license server is not present or if it is stopped (due to an invalid license), the TMAC server will not be able to acquire the license and the TMAC will fallback to next licensing mode (Evaluation License).    TMAC connects to the License server's WCF (HTTP) interface using \"TetherfiLicClient.dll\". The DLL should match the License Server version.  Below configuration is used in TMAC server to configure license server url:  <system.serviceModel> <client> <endpoint address=\"http://localhost/LicenseServer/\" binding=\"basicHttpBinding\" bindingConfiguration=\"basicHttp\" contract=\"TetherfiLicenseServer.ITetherfiLicService\" name=\"LicenseServer1\" /> </client> </system.serviceModel> Evaluation License  The Evaluation license mode can be used for demo and POC purposes. It is not recommended to be used in SIT/UAT/Production systems.  The evaluation license can be generated for TMAC server by the product development team. To generate an eval license, you have to provide the MAC address, IP address, and the expiry date requirement to the product team. Based on the provided data, the product team can generate an evaluation license Key and share it.  The generated evaluation license key has to be placed in template.config file of the TMAC server.  <add key=\"EvalLicenseKey\" value=\"place your key here\" /> And the IP of the server (which was provided to product team) should be configured in below:  <add key=\"EvalLicenseLocalIP\" value=\"10.1.1.10\" /> This IP should be a valid IP assigned to any of the network interfaces of the server. If there is an IP change, then you must get a new eval license key.  The evaluation license takes the second precedence during TMAC server start-up. If the TMAC server was not able to acquire the license from the License Manager/Server, then it looks for an evaluation license in the above “EvalLicenseKey”. The key is then extracted to get the MAC ID, IP, and the expiry date of the key. And these data is then validated against the current server’s MAC ID, IP, and the system date time.  If all the validations are passed, then TMAC server will start successfully, else TMAC will fallback to the next licensing mode (Developer license).  Developer License  The developer license is generally used during the development and testing teams only. Using the development license mode, TMAC can be started without a License Server or an evaluation license. This gives the flexibility to the developers to run the TMAC server in any environment.  The developer license can be configured in the below key in TMAC server template.config.  <add key=\"Developer\" value=\"Add the developer license key here\" /> Number of agent sessions allowed: The license returned from License server has a property called \"MaxAgentsAllowed\" and TMAC will allow that many agent sessions to be created per TMAC server instance. If there is no license server used, then TMAC will use the config \"AgentSession_MaxAgentsAllowed\" to determine the max number of sessions allowed per TMAC server.",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-04T17:43:37.641744",
+    "star": false
+  },
+  {
+    "id": 28,
+    "query": "explain about social media posts",
+    "answer": "Social media posts are messages, images, videos, or links shared on social media platforms such as Facebook, Twitter, Instagram, LinkedIn, etc. They serve as a means for individuals and organizations to communicate, share content, and engage with their audience on various topics, including personal updates, news, promotions, or discussions. Social media posts can be public or private, depending on the user's privacy settings.",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-04T17:44:40.762094",
+    "star": false
+  },
+  {
+    "id": 29,
+    "query": "For what are navbar divided into?",
+    "answer": "Navbars are typically divided into several sections for better organization and user experience. These sections often include a logo or brand name, main navigation menu, search bar, notifications, and social media icons. However, the specific division can vary depending on the website's purpose and design.",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-04T17:48:00.675988",
+    "star": false
+  },
+  {
+    "id": 30,
     "query": "explain about agent desktop",
-    "answer": "The Agent Desktop is a user interface designed for customer service agents. It's built using widgets, which allow for easy management of information without the need to switch between different applications. Agents can customize their desktop by adding, removing, or repositioning these widgets according to their specific requirements.\n\nKey features include:\n1. Work Codes: These are likely unique identifiers assigned to each customer interaction or task. They help agents quickly understand the nature of the interaction and prioritize their work accordingly.\n\n2. SUPERVISOR: This appears to be a feature for supervisors or team leads, providing them with tools to monitor, guide, and manage the performance of the agents on the desktop.",
-    "section": "User Interface Overview",
-    "images": [
-      {
-        "url": "/static/images/img_12.png",
-        "caption": "User Interface Overview"
-      },
-      {
-        "url": "/static/images/img_13.png",
-        "caption": "User Interface Overview"
-      },
-      {
-        "url": "/static/images/img_14.png",
-        "caption": "User Interface Overview"
-      },
-      {
-        "url": "/static/images/img_111.png",
-        "caption": "Work Codes"
-      },
-      {
-        "url": "/static/images/img_112.png",
-        "caption": "Work Codes"
-      },
-      {
-        "url": "/static/images/img_113.png",
-        "caption": "Work Codes"
-      },
-      {
-        "url": "/static/images/img_90.png",
-        "caption": "SUPERVISOR"
-      },
-      {
-        "url": "/static/images/img_91.png",
-        "caption": "SUPERVISOR"
-      }
-    ],
-    "time": "2026-02-25T14:43:07.328756",
+    "answer": "**Agent Desktop widget configurations**\n\nVote All the widget configurations for Agent Desktop can be found in below URL:  https://dice.tetherfi.cloud/agent-desktop-docs/  For deflect to digital widget, use below format:  https://dice.tetherfi.cloud/agent-desktop-docs/modules.html#TwDeflectToDigital  More information about Agent Desktop widgets can be found in:  https://docs.google.com/document/d/13bGEooKxuheJTP-U-et9pWhoFXIUyt1-FhwWQ6r7TBU/edit#heading=h.1z1uac2liak3",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-04T17:50:27.628860",
+    "star": false
+  },
+  {
+    "id": 31,
+    "query": "Hey I am poorvika can u please tell about T-widgets",
+    "answer": "T-Widgets, also known as T-Widgets Ltd., is a UK-based company specializing in the design and manufacturing of high-quality, innovative, and affordable home automation and smart home products. They offer a range of smart devices such as smart plugs, smart bulbs, and more, which can be controlled via a mobile app.",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-04T17:55:13.601070",
+    "star": false
+  },
+  {
+    "id": 32,
+    "query": "where to add aux code",
+    "answer": "The aux code, often used in programming, should typically be added to the part of the code where additional functions or libraries are being integrated. However, the exact location can vary depending on the programming language and the specific project requirements. Always refer to the language's documentation or best practices for the most accurate information.",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-04T18:06:14.441464",
+    "star": false
+  },
+  {
+    "id": 33,
+    "query": "explain about navbar",
+    "answer": "A navbar, short for navigation bar, is a common interface element in web design that provides quick access to different sections or pages of a website. It typically appears at the top of a webpage and contains links to various pages, search functionality, and sometimes user account information. The navbar helps users navigate through a website easily and quickly.",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-04T18:18:50.659857",
+    "star": false
+  },
+  {
+    "id": 34,
+    "query": "explain about agent desktop",
+    "answer": "**Agent Desktop widget configurations**\n\nVote All the widget configurations for Agent Desktop can be found in below URL:  https://dice.tetherfi.cloud/agent-desktop-docs/  For deflect to digital widget, use below format:  https://dice.tetherfi.cloud/agent-desktop-docs/modules.html#TwDeflectToDigital  More information about Agent Desktop widgets can be found in:  https://docs.google.com/document/d/13bGEooKxuheJTP-U-et9pWhoFXIUyt1-FhwWQ6r7TBU/edit#heading=h.1z1uac2liak3",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-05T10:11:38.064082",
+    "star": false
+  },
+  {
+    "id": 35,
+    "query": "explain T-widgets",
+    "answer": "T-Widgets, also known as T-shaped skills, are a model used in talent management and team composition. They refer to individuals who have deep expertise in one area (the vertical bar of the T), along with a broad understanding and practical application of several related areas (the horizontal bar of the T). This model aims to balance specialization and versatility within a team or organization.",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-05T10:12:25.884762",
+    "star": false
+  },
+  {
+    "id": 36,
+    "query": "explain about social media posts",
+    "answer": "Social media posts are messages, images, videos, or links shared on social media platforms such as Facebook, Twitter, Instagram, LinkedIn, etc. These posts can be created by individuals, businesses, or organizations to share information, express opinions, engage with audiences, and build online communities. They can be public or private, depending on the privacy settings of the user and the platform.",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-05T10:34:29.023588",
+    "star": false
+  },
+  {
+    "id": 37,
+    "query": "explain navbar",
+    "answer": "A navbar, short for navigation bar, is a user interface element commonly found on websites. It typically provides quick access to different sections or pages within the website, often displayed horizontally across the top of the page. The navbar helps users navigate the site easily and quickly, improving their overall user experience.",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-05T10:34:55.257300",
+    "star": false
+  },
+  {
+    "id": 38,
+    "query": "explain navbar in detailed",
+    "answer": "A navbar, short for navigation bar, is a common interface element in web design that provides navigation links to different sections or pages of a website. It typically appears at the top of a webpage and contains a list of main categories or menu items, allowing users to easily navigate through the site's content. The navbar can be static or responsive, adapting to different screen sizes for optimal user experience on various devices.",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-05T10:35:40.514056",
+    "star": false
+  },
+  {
+    "id": 39,
+    "query": "How does Work Queue ACK  work",
+    "answer": "**How does Work Queue ACK (Acknowledgement) work?**\n\nTetherfi Work Queue “ACK” feature ensures that a work item is delivered to the TMAC/Agent Desktop UI without fail. When a new item is added to queue, the item is removed from the queue only after the item is routed to the TMAC/AD UI and WQ receives and ACK from the UI.  EMM, TComm adds item to work queue.  In workqueue template.config there are two configs  <add key=\"AcknowledgementRequired\" value=\"1\"/>  <add key=\"WorkItemTTL\" value=\"15000\"/>  If “AcknowledgementRequired” is set to 1, then WQ will add items to queue with ACK enabled.  And the “WorkItemTTL” is the time in milliseconds WQ waits for an acknowledgment from the UI.  If this “WorkItemTTL” is not set or set to 0, then WQ will use the default value “20000” (20 seconds).  After WQ adds the items to queue with ACK enabled, and when the TMAC server receives this WQ item, TMAC server adds a ACK section to the interaction construct event (TextChatIncomingEvent, IncomingEmailEvent)  \"ACK\": { \"IsRequired\": true, \"Source\": \"workqueue\", \"Id\": \"dev210930234153_2618\", \"Channel\": \"TextChat\" }, When the TMAC JS SDK receives this interaction construct event, the SDK checks for this “ACK” property and if the “IsRequired” parameter is set to “true”, the SDK calls TMAC proxy method “EventAcknowledgement” method.TMAC SDK proxy forwards this method to TMAC Server.  When the TMAC JS SDK receives this interaction construct event, the SDK checks for this “ACK” property and if the “IsRequired” parameter is set to “true”, the SDK calls TMAC proxy method “EventAcknowledgement” method.TMAC SDK proxy forwards this method to TMAC Server.    public static CommandResultEvent EventAcknowledgement(string agentId, string channel, string itemId, string source)  agentId – id of the agent who received the event  channel – interaction channel  itemId – session id of the item  source – workqueue    If the source it “workqueue”, then TMAC will forward this method to WQ server.  The WQ will wait for the number of milliseconds configured in “WorkItemTTL”. If the ACK comes before the TTL the item is removed from the queue, else the item will remain in the queue and it will be routed to next agent.",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-05T10:35:56.480052",
+    "star": false
+  },
+  {
+    "id": 40,
+    "query": "tell about Primse minister",
+    "answer": "A Prime Minister is the head of government in many countries, including the United Kingdom, Canada, Australia, and India. They are appointed by the monarch (or the president in a presidential system) and are typically the leader of the political party that has the most seats in the national parliament. They are responsible for leading the government and implementing its policies.",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-05T10:39:46.241075",
+    "star": false
+  },
+  {
+    "id": 41,
+    "query": "How does Work Queue ACK work",
+    "answer": "**How does Work Queue ACK (Acknowledgement) work?**\n\nTetherfi Work Queue “ACK” feature ensures that a work item is delivered to the TMAC/Agent Desktop UI without fail. When a new item is added to queue, the item is removed from the queue only after the item is routed to the TMAC/AD UI and WQ receives and ACK from the UI.  EMM, TComm adds item to work queue.  In workqueue template.config there are two configs  <add key=\"AcknowledgementRequired\" value=\"1\"/>  <add key=\"WorkItemTTL\" value=\"15000\"/>  If “AcknowledgementRequired” is set to 1, then WQ will add items to queue with ACK enabled.  And the “WorkItemTTL” is the time in milliseconds WQ waits for an acknowledgment from the UI.  If this “WorkItemTTL” is not set or set to 0, then WQ will use the default value “20000” (20 seconds).  After WQ adds the items to queue with ACK enabled, and when the TMAC server receives this WQ item, TMAC server adds a ACK section to the interaction construct event (TextChatIncomingEvent, IncomingEmailEvent)  \"ACK\": { \"IsRequired\": true, \"Source\": \"workqueue\", \"Id\": \"dev210930234153_2618\", \"Channel\": \"TextChat\" }, When the TMAC JS SDK receives this interaction construct event, the SDK checks for this “ACK” property and if the “IsRequired” parameter is set to “true”, the SDK calls TMAC proxy method “EventAcknowledgement” method.TMAC SDK proxy forwards this method to TMAC Server.  When the TMAC JS SDK receives this interaction construct event, the SDK checks for this “ACK” property and if the “IsRequired” parameter is set to “true”, the SDK calls TMAC proxy method “EventAcknowledgement” method.TMAC SDK proxy forwards this method to TMAC Server.    public static CommandResultEvent EventAcknowledgement(string agentId, string channel, string itemId, string source)  agentId – id of the agent who received the event  channel – interaction channel  itemId – session id of the item  source – workqueue    If the source it “workqueue”, then TMAC will forward this method to WQ server.  The WQ will wait for the number of milliseconds configured in “WorkItemTTL”. If the ACK comes before the TTL the item is removed from the queue, else the item will remain in the queue and it will be routed to next agent.",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-05T10:41:06.097134",
+    "star": false
+  },
+  {
+    "id": 44,
+    "query": "explain about navbar",
+    "answer": "A navbar, short for navigation bar, is a common interface element in web design that provides quick access to different sections or pages of a website. It typically appears at the top of a webpage and contains links to various pages, search functions, and sometimes user account information. The navbar helps users navigate a website easily and efficiently.",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-05T11:08:55.194781",
+    "star": false
+  },
+  {
+    "id": 45,
+    "query": "How does Work Queue ACK (Acknowledgement) work",
+    "answer": "The Work Queue ACK (Acknowledgement) feature ensures that a work item is delivered to the TMAC/Agent Desktop UI without fail. When a new item is added to the queue, it waits for an acknowledgment from the UI for a specified time (configured in milliseconds). If the acknowledgment is received before the time limit, the item is removed from the queue. If not, the item remains in the queue and is routed to the next agent. The ACK process involves interactions between the EMM, TComm, TMAC server, and TMAC JS SDK.\n\n[Source: FAQ Database]",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-05T11:12:38.719956",
+    "star": false
+  },
+  {
+    "id": 46,
+    "query": "explain about T-widgets and its types",
+    "answer": "T-widgets are not mentioned in the provided FAQ. However, in the context of software development, T-widgets could refer to a type of user interface component, often used in cross-platform GUI frameworks like Qt or Trolltech's Qt framework. These widgets are designed to provide a consistent look and feel across different operating systems. Common types of T-widgets include buttons, checkboxes, radio buttons, text fields, and more complex controls like calendars, progress bars, and trees. The specific types of T-widgets available depend on the GUI framework being used.\n\n[Source: FAQ Database]",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-05T11:14:35.694909",
+    "star": false
+  },
+  {
+    "id": 47,
+    "query": "explain T-widgets and types",
+    "answer": "The FAQ does not provide information about T-widgets and their types. However, for understanding the work queue's skill level priority, you can refer to the provided link: https://my.folderit.com/folder/index/?uid=2A0PI0Q_3A.\n\n[Source: FAQ Database]",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-05T11:20:01.416098",
+    "star": false
+  },
+  {
+    "id": 49,
+    "query": "explain about T-widgets",
+    "answer": "I don't have information about that.",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-05T11:24:51.093463",
+    "star": false
+  },
+  {
+    "id": 50,
+    "query": "How do I transfer a call?",
+    "answer": "To transfer a call, you can follow these steps:\n\n1. First, put the caller on hold by pressing the hold button on your phone or using the appropriate soft key on your device.\n2. Next, dial the number of the person you want to transfer the call to.\n3. Once the call is answered, inform the person about the transferred call and then press the transfer button on your phone or use the appropriate soft key.\n4. The call will be transferred to the new recipient. If the transfer is successful, you can hang up your phone.\n\n[Source: FAQ Database]",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-05T11:25:50.931569",
+    "star": false
+  },
+  {
+    "id": 51,
+    "query": "explain about T-widgets",
+    "answer": "**Can you explain how the workqueue processing works?**\n\nPlease refer to:  https://docs.google.com/document/d/184Ujem6vKS9mx0ui0fCkswD7i-n9mm8oDPtuylYIhP0/edit\n\n[Source: FAQ Database]",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-05T11:29:40.754894",
+    "star": false
+  },
+  {
+    "id": 52,
+    "query": "explain about social media posts",
+    "answer": "I don't have information about that.",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-05T11:29:50.914104",
+    "star": false
+  },
+  {
+    "id": 53,
+    "query": "How does Agent Desktop agent hierarchy works",
+    "answer": "**How does Agent Desktop agent hierarchy works?**\n\nAgent Desktop connects to TMAC Data Server over a SignalR WebSocket connection. Whenever a supervisor login to Agent Desktop and navigate to the supervisor page, Agent desktop sends a command GetActiveAgentList to the TMAC Data Server with a parameter teamId. But teamId will be passed only if the twc-supervisor widget's Data.AgentHierarchy is configured to true as given below:  Agent Desktop configuration file The TMAC Data Server calls TMAC Server method GetHierarchyForSupervisorMonitoring (onl...\n\n[Source: FAQ Database]",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-05T11:30:32.845409",
+    "star": false
+  },
+  {
+    "id": 55,
+    "query": "explain T-widgets",
+    "answer": "T-widgets, as per the provided FAQ, are customizable UI components for the Tars chatbot platform. They allow for the creation of interactive elements within a chatbot conversation, such as buttons, images, and text fields, to enhance user engagement and collect user data.\n\n[Source: FAQ Database]",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-05T11:44:30.828678",
+    "star": false
+  },
+  {
+    "id": 57,
+    "query": "explain T-widgets",
+    "answer": "T-widgets, as explained in the provided document, are customizable user interface components designed for use in TensorFlow.js applications. They provide a simple and flexible way to create interactive visualizations and user interfaces, making it easier to build and deploy machine learning models in the browser. T-widgets can be used to visualize data, manipulate model parameters, and display model predictions.\n\n[Source: FAQ Database]",
+    "section": "Chat",
+    "images": [],
+    "time": "2026-03-05T11:55:23.734902",
+    "star": false
+  },
+  {
+    "id": 57,
+    "query": "explain T-widgets",
+    "answer": "**Q: Can you explain how the workqueue processing works?**\n\nPlease refer to:  https://docs.google.com/document/d/184Ujem6vKS9mx0ui0fCkswD7i-n9mm8oDPtuylYIhP0/edit",
+    "section": "T-Widgets",
+    "images": [],
+    "time": "2026-03-05T12:08:39.959473",
+    "star": false
+  },
+  {
+    "id": 59,
+    "query": "explain T-widgets",
+    "answer": "T-Widgets are dynamic elements in the AD dashboard, divided into four main types: Toolbar, Navbar, Content, and AOT (Always on top). Navbar and Content widgets have sub-types. Dynamic widgets for interaction-related tabs receive configurations from WidgetConfigData sent by the TMAC Server on corresponding interaction-based events. These configurations are located at TMAC_SERVER/widgets/interactions/(interaction_channel).json.",
+    "section": "T-Widgets",
+    "images": [],
+    "time": "2026-03-05T12:20:09.366080",
+    "star": false
+  },
+  {
+    "id": 55,
+    "query": "How does Work Queue ACK (Acknowledgement) work",
+    "answer": "To acknowledge a call, change your status from On Call to ACW (After Call Work) after the interaction with the customer. Click ACW, then disconnect the call. Complete any post-call processing work, tag a relevant work code, and change your status to Available to accept a new call.",
+    "section": "FAQ - StackOverflow",
+    "images": [],
+    "time": "2026-03-05T12:23:27.832601",
+    "star": false
+  },
+  {
+    "id": 56,
+    "query": "explain mango",
+    "answer": "The term \"mango\" is not explicitly mentioned in the provided documentation. However, it discusses Static/Dynamic Widgets and their behavior on the AD dashboard, particularly during interactions. Dynamic widgets' configurations for interaction-related tabs are taken from WidgetConfigData sent by the TMAC Server on corresponding interaction-based events. These configurations are located at TMAC_SERVER/widgets/interactions/(interaction_channel).json. The \"Email Controls\" widget is an example of a widget that must be displayed during an email interaction.",
+    "section": "FAQ - StackOverflow",
+    "images": [],
+    "time": "2026-03-05T12:24:50.952438",
+    "star": false
+  },
+  {
+    "id": 57,
+    "query": "explain T-widgets",
+    "answer": "T-Widgets are dynamic elements in the AD dashboard, divided into four main types: Toolbar, Navbar, Content, and AOT (Always on top). Navbar and Content widgets have sub-types. Dynamic widgets for interaction-related tabs receive configurations from WidgetConfigData sent by the TMAC Server on corresponding interaction-based events. These configurations are located at TMAC_SERVER/widgets/interactions/(interaction_channel).json.",
+    "section": "T-Widgets",
+    "images": [],
+    "time": "2026-03-05T12:47:08.812281",
+    "star": false
+  },
+  {
+    "id": 58,
+    "query": "How does TMAC server or any other component licensing work",
+    "answer": "**📑 FAQ - STACKOVERFLOW**\n\n**Q: How does TMAC server or any other component licensing work?**\n\nTMAC server has three different licensing modes:  Instance License  Evaluation License  Developer License  Instance License  An instance License is the preferred type of license for the TMAC server. The license is generated by the Tetherfi product team for a provided MAC address of a server. The request to generate the license has to be sent to the product team (there is a designated email address for this) along with required details (customer details, MAC address of the server).  The product team will create the license file and share it with the implementation team. The license comes in a form of a “.lic” file which has to be placed in the Tetherfi License Server folder.  After placing the license file into the Tetherfi License Server/Manager, the Licence server has to be restarted. The Licence server can successfully start only if the license is valid.  During the server startup, the TMAC server tries to connect to licensing server to acquire a valid license. If the license server is not present or if it is stopped (due to an invalid license), the TMAC server will not be able to acquire the license and the TMAC will fallback to next licensing mode (Evaluation License).    TMAC connects to the License server's WCF (HTTP) interface using \"TetherfiLicClient.dll\". The DLL should match the License Server version.  Below configuration is used in TMAC server to configure license server url:  <system.serviceModel> <client> <endpoint address=\"http://localhost/LicenseServer/\" binding=\"basicHttpBinding\" bindingConfiguration=\"basicHttp\" contract=\"TetherfiLicenseServer.ITetherfiLicService\" name=\"LicenseServer1\" /> </client> </system.serviceModel> Evaluation License  The Evaluation license mode can be used for demo and POC purposes. It is not recommended to be used in SIT/UAT/Production systems.  The evaluation license can be generated for TMAC server by the product development team. To generate an eval license, you have to provide the MAC address, IP address, and the expiry date requirement to the product team. Based on the provided data, the product team can generate an evaluation license Key and share it.  The generated evaluation license key has to be placed in template.config file of the TMAC server.  <add key=\"EvalLicenseKey\" value=\"place your key here\" /> And the IP of the server (which was provided to product team) should be configured in below:  <add key=\"EvalLicenseLocalIP\" value=\"10.1.1.10\" /> This IP should be a valid IP assigned to any of the network interfaces of the server. If there is an IP change, then you must get a new eval license key.  The evaluation license takes the second precedence during TMAC server start-up. If the TMAC server was not able to acquire the license from the License Manager/Server, then it looks for an evaluation license in the above “EvalLicenseKey”. The key is then extracted to get the MAC ID, IP, and the expiry date of the key. And these data is then validated against the current server’s MAC ID, IP, and the system date time.  If all the validations are passed, then TMAC server will start successfully, else TMAC will fallback to the next licensing mode (Developer license).  Developer License  The developer license is generally used during the development and testing teams only. Using the development license mode, TMAC can be started without a License Server or an evaluation license. This gives the flexibility to the developers to run the TMAC server in any environment.  The developer license can be configured in the below key in TMAC server template.config.  <add key=\"Developer\" value=\"Add the developer license key here\" /> Number of agent sessions allowed: The license returned from License server has a property called \"MaxAgentsAllowed\" and TMAC will allow that many agent sessions to be created per TMAC server instance. If there is no license server used, then TMAC will use the config \"AgentSession_MaxAgentsAllowed\" to determine the max number of sessions allowed per TMAC server.",
+    "section": "FAQ - StackOverflow",
+    "images": [],
+    "time": "2026-03-05T12:47:20.685119",
+    "star": false
+  },
+  {
+    "id": 59,
+    "query": "How does TMAC server or any other component licensing work",
+    "answer": "**📑 FAQ - STACKOVERFLOW**\n\n**Q: How does TMAC server or any other component licensing work?**\n\nTMAC server has three different licensing modes:  Instance License  Evaluation License  Developer License  Instance License  An instance License is the preferred type of license for the TMAC server. The license is generated by the Tetherfi product team for a provided MAC address of a server. The request to generate the license has to be sent to the product team (there is a designated email address for this) along with required details (customer details, MAC address of the server).  The product team will create the license file and share it with the implementation team. The license comes in a form of a “.lic” file which has to be placed in the Tetherfi License Server folder.  After placing the license file into the Tetherfi License Server/Manager, the Licence server has to be restarted. The Licence server can successfully start only if the license is valid.  During the server startup, the TMAC server tries to connect to licensing server to acquire a valid license. If the license server is not present or if it is stopped (due to an invalid license), the TMAC server will not be able to acquire the license and the TMAC will fallback to next licensing mode (Evaluation License).    TMAC connects to the License server's WCF (HTTP) interface using \"TetherfiLicClient.dll\". The DLL should match the License Server version.  Below configuration is used in TMAC server to configure license server url:  <system.serviceModel> <client> <endpoint address=\"http://localhost/LicenseServer/\" binding=\"basicHttpBinding\" bindingConfiguration=\"basicHttp\" contract=\"TetherfiLicenseServer.ITetherfiLicService\" name=\"LicenseServer1\" /> </client> </system.serviceModel> Evaluation License  The Evaluation license mode can be used for demo and POC purposes. It is not recommended to be used in SIT/UAT/Production systems.  The evaluation license can be generated for TMAC server by the product development team. To generate an eval license, you have to provide the MAC address, IP address, and the expiry date requirement to the product team. Based on the provided data, the product team can generate an evaluation license Key and share it.  The generated evaluation license key has to be placed in template.config file of the TMAC server.  <add key=\"EvalLicenseKey\" value=\"place your key here\" /> And the IP of the server (which was provided to product team) should be configured in below:  <add key=\"EvalLicenseLocalIP\" value=\"10.1.1.10\" /> This IP should be a valid IP assigned to any of the network interfaces of the server. If there is an IP change, then you must get a new eval license key.  The evaluation license takes the second precedence during TMAC server start-up. If the TMAC server was not able to acquire the license from the License Manager/Server, then it looks for an evaluation license in the above “EvalLicenseKey”. The key is then extracted to get the MAC ID, IP, and the expiry date of the key. And these data is then validated against the current server’s MAC ID, IP, and the system date time.  If all the validations are passed, then TMAC server will start successfully, else TMAC will fallback to the next licensing mode (Developer license).  Developer License  The developer license is generally used during the development and testing teams only. Using the development license mode, TMAC can be started without a License Server or an evaluation license. This gives the flexibility to the developers to run the TMAC server in any environment.  The developer license can be configured in the below key in TMAC server template.config.  <add key=\"Developer\" value=\"Add the developer license key here\" /> Number of agent sessions allowed: The license returned from License server has a property called \"MaxAgentsAllowed\" and TMAC will allow that many agent sessions to be created per TMAC server instance. If there is no license server used, then TMAC will use the config \"AgentSession_MaxAgentsAllowed\" to determine the max number of sessions allowed per TMAC server.",
+    "section": "FAQ - StackOverflow",
+    "images": [],
+    "time": "2026-03-05T12:50:20.836600",
+    "star": false
+  },
+  {
+    "id": 60,
+    "query": "explain T-widgets",
+    "answer": "T-Widgets are dynamic elements in the AD dashboard, divided into four main types: Toolbar, Navbar, Content, and AOT (Always on top). Navbar and Content widgets have sub-types. Dynamic widgets for interaction-related tabs receive configurations from WidgetConfigData sent by the TMAC Server on corresponding interaction-based events. These configurations are located at TMAC_SERVER/widgets/interactions/(interaction_channel).json.",
+    "section": "T-Widgets",
+    "images": [],
+    "time": "2026-03-05T12:53:03.945245",
+    "star": false
+  },
+  {
+    "id": 61,
+    "query": "How to unblock DLL/EXE files via command line",
+    "answer": "**📑 FAQ - STACKOVERFLOW**\n\n**Q: How to unblock DLL/EXE files via command line?**\n\nIf it is a single DLL/EXE you want to unblock, you can use the \"Unblock\" button this snapshot you shared.  If there are many files which might be blocked, or unknown blocked files, then you can use the following command in Powershell:  get-childitem \"C:\\Path\\to\\your\\build\\folder\\\" | unblock-file  Replace the path here with your build folder path.  Note: Sometimes, even after unblocking, DLL/EXE might not work because of the tool \"Microsoft Monitoring Agent\" customer has in their servers. This tool blocks immediately and all future DLLs of that version might be blocked.",
+    "section": "FAQ - StackOverflow",
+    "images": [],
+    "time": "2026-03-05T12:55:06.971591",
+    "star": false
+  },
+  {
+    "id": 62,
+    "query": "How to unblock DLL/EXE files via command line",
+    "answer": "**📑 FAQ - STACKOVERFLOW**\n\n If there are many files which might be blocked, or unknown blocked files, then you can use the following command in Powershell:  get-childitem \"C:\\Path\\to\\your\\build\\folder\\\" | unblock-file  Replace the path here with your build folder path",
+    "section": "FAQ - StackOverflow",
+    "images": [],
+    "time": "2026-03-05T13:11:16.318103",
+    "star": false
+  },
+  {
+    "id": 63,
+    "query": "who is prime minister",
+    "answer": "**📑 FAQ - STACKOVERFLOW**\n\nIn TPomCallbackDashboard service - GetCallDashboardDataForAgent method, PTPCallWrapUpReasonNames config values are taken to get the count of the ptpCalls of that Agent",
+    "section": "FAQ - StackOverflow",
+    "images": [],
+    "time": "2026-03-05T13:12:14.529073",
+    "star": false
+  },
+  {
+    "id": 64,
+    "query": "explain T-widgets",
+    "answer": "T-Widgets are dynamic elements in the AD dashboard, divided into four main types: Toolbar, Navbar, Content, and AOT (Always on top). Navbar and Content widgets have sub-types. Dynamic widgets for interaction-related tabs may have configurations from WidgetConfigData sent by the TMAC Server on corresponding interaction-based events. These configurations are located at TMAC_SERVER/widgets/interactions/(interaction_channel).json.",
+    "section": "T-Widgets",
+    "images": [],
+    "time": "2026-03-05T13:14:01.101422",
+    "star": false
+  },
+  {
+    "id": 65,
+    "query": "explain about social media posts",
+    "answer": "The Social Media tab in the Workbench organizes interactions on Facebook, Twitter, and Instagram. It categorizes interactions by skill sets and shows details about posts, including reactions and comments. Each interaction shows the account name of the customer who commented and the text of their comment or reply. Editing, deleting posts or their comments, or reacting to post comments or replies will be reflected in the Agent Desktop. Only customer comments and replies on business posts made on monitored accounts on Facebook, Instagram, or Twitter will be directed to the Agent Desktop.",
+    "section": "Social Media Segments",
+    "images": [],
+    "time": "2026-03-05T13:18:21.192170",
+    "star": false
+  },
+  {
+    "id": 66,
+    "query": "explain about T-widgets",
+    "answer": "T-Widgets are the dynamic widgets of AD, where they are created, configured, and maintained. They are divided into Toolbar, Navbar, Content, and AOT (Always on top) widgets, as shown by the color-coded boxes in the webpage separation. Dynamic widgets for interaction-related tabs may have configurations taken from WidgetConfigData sent by the TMAC Server on corresponding interaction-based events.",
+    "section": "Types of widgets",
+    "images": [],
+    "time": "2026-03-05T15:13:28.976269",
+    "star": false
+  },
+  {
+    "id": 67,
+    "query": "How to unblock DLL/EXE files via command line",
+    "answer": "**📑 FAQ - STACKOVERFLOW**\n\n If there are many files which might be blocked, or unknown blocked files, then you can use the following command in Powershell:  get-childitem \"C:\\Path\\to\\your\\build\\folder\\\" | unblock-file  Replace the path here with your build folder path",
+    "section": "FAQ - StackOverflow",
+    "images": [],
+    "time": "2026-03-05T15:14:21.149020",
+    "star": false
+  },
+  {
+    "id": 68,
+    "query": "explain about T-widgets",
+    "answer": "T-Widgets are the dynamic widgets of AD where configurations can be created, configured, and maintained. They are divided into Toolbar, Navbar, Content, and AOT (Always on top) widgets, as shown in a high-level view of the webpage. Dynamic widgets for interaction-related tabs may have configurations taken from WidgetConfigData sent by the TMAC Server on corresponding interaction-based events.",
+    "section": "Types of widgets",
+    "images": [],
+    "time": "2026-03-05T15:20:14.808359",
+    "star": false
+  },
+  {
+    "id": 69,
+    "query": "How does the Agent Desktop and Email manager handle email attachments?",
+    "answer": "The Agent Desktop and Email Manager allows forwards of emails during an interaction. However, the documentation does not provide specific details about how email attachments are handled during this process.",
+    "section": "FAQ - StackOverflow",
+    "images": [],
+    "time": "2026-03-05T15:21:41.674099",
+    "star": false
+  },
+  {
+    "id": 70,
+    "query": "explain about T-widgets",
+    "answer": "**Types of widgets**\n\nSection: Types of widgets\n\nAs discussed in the T-Widgets section, on a high-level view, the widgets can be divided into Toolbar, Navbar, Content and AOT widgets. In this section, we will see how Navbar, and Content widgets are further divided into different sub-types.",
+    "section": "Types of widgets",
+    "images": [],
+    "time": "2026-03-05T15:31:59.944792",
+    "star": false
+  },
+  {
+    "id": 71,
+    "query": "explain about T-widgets",
+    "answer": "T-Widgets are the dynamic widgets of AD, created, configured, and maintained within the system. They are divided into Toolbar, Navbar, Content, and AOT (Always on top) widgets, as shown in a high-level view of the webpage. Dynamic widgets for interaction-related tabs may have configurations taken from WidgetConfigData sent by the TMAC Server on corresponding interaction-based events.",
+    "section": "Types of widgets",
+    "images": [],
+    "time": "2026-03-05T15:35:43.883246",
+    "star": false
+  },
+  {
+    "id": 72,
+    "query": "explain navbar",
+    "answer": "The Navbar is a section of a widget that can be divided into \"Top\" and \"Bottom\" parts, displayed respectively on the top and bottom sections of the Navbar. It is one of the types of widgets in the system, along with Toolbar, Content, and AOT (Always on top) widgets.",
+    "section": "Navbar",
+    "images": [],
+    "time": "2026-03-05T15:40:11.067057",
+    "star": false
+  },
+  {
+    "id": 73,
+    "query": "Explain about navbar",
+    "answer": "The Navbar is a section of a widget that can be divided into \"Top\" and \"Bottom\" parts, displayed respectively on the top and bottom sections of the Navbar. It is one of the types of widgets in the system, along with Toolbar, Content, and AOT (Always on top) widgets.",
+    "section": "Navbar",
+    "images": [],
+    "time": "2026-03-05T16:15:13.359226",
+    "star": false
+  },
+  {
+    "id": 74,
+    "query": "Two tabs opening in TMAC UI for one interaction",
+    "answer": "**📑 FAQ - STACKOVERFLOW**\n\nWith reference to explaination in When VIVR connects to TPPVA, it shows as a conference (multiple TPPVA agents connected to VIVR), if the setting do not match the table mentioned in the link then possible chat server queue the same interaction twice",
+    "section": "FAQ - StackOverflow",
+    "images": [],
+    "time": "2026-03-05T16:17:39.804192",
     "star": false
   }
 ]

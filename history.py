@@ -1,3 +1,4 @@
+# history.py
 import json, os
 from datetime import datetime
 from threading import Lock
@@ -18,11 +19,9 @@ def _load():
 def _save(history):
     with lock:
         with open(HISTORY_FILE, 'w', encoding='utf-8') as f:
-            json.dump(history[-50:], f, indent=2, ensure_ascii=False)
+            json.dump(history, f, indent=2, ensure_ascii=False)
 
-# FIXED: Added get() function
 def get(limit=20):
-    """Get recent history"""
     history = _load()
     return history[-limit:]
 
@@ -53,3 +52,6 @@ def star(id):
 
 def clear():
     _save([])
+
+def get_all():
+    return _load()
